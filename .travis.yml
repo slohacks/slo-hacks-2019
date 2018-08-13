@@ -1,0 +1,25 @@
+branches:
+  only:
+  - master
+language: node_js
+node_js:
+  - "node"
+before_script:
+  - npm install -g gatsby-cli eslint stylelint
+script:
+  - ./node_modules/.bin/eslint src/**/*.js*
+  - stylelint \"src/**/*.css\"  --aei
+  - npm run test
+before_deploy:
+  - npm run build
+deploy:
+  skip-cleanup: true
+  provider: pages
+  github-token: $GITHUB_TOKEN
+  local-dir: public
+  target-branch: gh-pages
+  keep-history: true
+  email: 34457519+slohacksbot@users.noreply.github.com
+  name: SLO Hacks Bot
+  on:
+    branch: master

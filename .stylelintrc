@@ -1,0 +1,12 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "font-family-name-quotes": "always-where-recommended",
+    "color-hex-case": "upper",
+    "color-named": "never",
+    "function-url-quotes": "always",
+    "max-nesting-depth": 2,
+    "selector-attribute-quotes": "always",
+    "string-quotes": "single"
+  }
+}
