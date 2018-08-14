@@ -16,7 +16,9 @@ class TemplateWrapper extends React.Component {
             { name: 'theme-color', content: '#FFFFFF' },
           ]}
         />
-        <p>Hello world</p>
+        <div>
+          {this.props.children()}
+        </div>
       </div>
     );
   }
