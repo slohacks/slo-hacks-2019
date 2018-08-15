@@ -13,7 +13,6 @@ const TextHeader = ({
   );
 };
 
-
 TextHeader.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.node),
