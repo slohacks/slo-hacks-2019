@@ -40,7 +40,7 @@
     "build": "gatsby build --prefix-paths",
     "develop": "gatsby develop",
     "gh-pages": "gatsby build --prefix-paths && gh-pages -d public",
-    "lint": "./node_modules/.bin/eslint src/**/*.js*; stylelint \"src/**/*.css\"  --aei",
+    "lint": "./node_modules/.bin/eslint src/**/*.js*; stylelint \"src/**/*.css\" --aei",
     "test": "jest --passWithNoTests",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage"
