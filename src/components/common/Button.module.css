@@ -1,0 +1,23 @@
+.button {
+  background: transparent;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.4rem 1.2rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.button:hover {
+
+}
+
+.button:disabled {
+
+}
+
+.button:hover:disabled {
+
+}
