@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Footer.module.css';
 import SocialMedia from './SocialMedia';
-import FooterText from './FooterText';
 
 const Footer = () => {
   return (
