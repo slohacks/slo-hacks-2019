@@ -8,7 +8,7 @@
 .footer__text {
   margin-left: 0.05rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   font-size: 2vh;
 }
@@ -27,7 +27,7 @@
 .footer__social {
   display: flex;
   flex-direction: row;
-  justify-conten: center;
+  justify-content: center;
   align-items: center;
   align-content: center;
 }

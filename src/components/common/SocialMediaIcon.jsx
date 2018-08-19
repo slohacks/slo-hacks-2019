@@ -24,7 +24,6 @@ class SocialMediaIcon extends React.Component {
     this.setState({ image: imageUrl });
   }
 
-
   handleTouchStart = () => {
     const imageUrl = "./static/footer/social_" + this.props.icon + "-02.svg";
     this.setState({ image: imageUrl });
@@ -43,7 +42,7 @@ class SocialMediaIcon extends React.Component {
 
     return (
       <div className={styles.footer_row}>
-        <a rel="nooppener" href={this.props.url} target="_blank">
+        <a rel="noopener" href={this.props.url} target="_blank">
           <img className={styling} src={this.state.image} 
             onMouseOver={this.handleMouseOver}
             onMouseOut={this.handleMouseOut}
