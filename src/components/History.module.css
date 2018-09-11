@@ -1,0 +1,22 @@
+.history {
+  grid-area: history;
+}
+
+.historyContainer {
+  display: grid;
+  grid-template-columns: 1fr 5fr 5fr 1fr;
+  grid-template-areas:
+  '. historyHeader historyText .';
+}
+
+
+.historyHeader {
+  grid-area: historyHeader;
+}
+
+.historyText {
+  grid-area: historyText;
+  text-align: right;
+}
+
+

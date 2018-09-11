@@ -1,0 +1,37 @@
+.tracks {
+  display: grid;
+  grid-area: tracks;
+  grid-template-columns: 1fr 8fr 1fr;
+  grid-template-rows: 2fr 2fr auto 2fr;
+  grid-template-areas:
+    '. . .'
+    '. header.'
+    '. track .'
+    '. . .';
+  background-image: url('../assets/tracks.png');
+  background-size: cover;
+  -ms-transform: rotate(-10deg); /* IE 9 */
+  -webkit-transform: rotate(-10deg); /* Safari */
+  transform: rotate(-10deg);
+}
+
+.track {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  grid-area: track;
+  margin-top: 1rem;
+}
+
+.trackContainer {
+  width: 25%;
+  text-align: center;
+}
+
+.track h2:first-of-type {
+  margin-bottom: 0;
+}
+
+.image {
+  width: 60%;
+}

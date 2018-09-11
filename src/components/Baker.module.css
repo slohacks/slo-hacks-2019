@@ -1,0 +1,11 @@
+.baker {
+  display: flex;
+  grid-area: baker;
+}
+
+.baker_image {
+  width: 100vw;
+  height: auto;
+  align-self: center;
+  margin-bottom: 0;
+}

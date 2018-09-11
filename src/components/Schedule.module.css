@@ -1,0 +1,37 @@
+.schedule {
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+  grid-template-rows:  1fr auto 1fr;
+  grid-template-areas:
+  '. header .'
+  '. scheduleWrapper .'
+  '. . .';
+  grid-area: schedule;
+  background-color: #8bb261;
+}
+
+.scheduleWrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  grid-area: scheduleWrapper;
+  background-color: white;
+  border-radius: 2em;
+  padding: 0 4rem;
+}
+
+.scheduleSection {
+  width: 50%;
+}
+
+
+.dayHeader h2{
+  font-size: 3rem;
+  font-weight: bold;
+  color: black;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  padding: 1em 0;
+  margin-bottom: 0;
+  text-align: center;
+}
