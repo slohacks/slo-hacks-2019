@@ -3,98 +3,48 @@ import Header from '../components/common/Header';
 import Column from '../components/common/Column';
 import TextSection from '../components/common/TextSection';
 import TextHeader from '../components/common/TextHeader';
-import TextGroup from '../components/common/TextGroup';
 import styles from './Schedule.module.css';
+import events from './data/Schedule.json';
+import bottomGrass from '../assets/bottomGrass.png';
 
-const Schedule = () => (
-  <div className={styles.schedule}>
-    <Header fontSize="4.5rem" color="white">Schedule</Header>
-    <div className={styles.scheduleWrapper}>
-      <div className={styles.scheduleSection}>
-        <div className={styles.dayHeader}>
-          <TextHeader>Saturday</TextHeader>
+const Schedule = () => {
+  function renderEvents(eventSection) {
+    const { body } = events;
+    return body[eventSection].events.map((event) => { // eslint-disable-line arrow-body-style
+      return (
+        <div className={styles.event}>
+          <TextHeader fontSize="1.25rem" color="black">{event.title}</TextHeader>
+          <TextSection fontSize="1.25rem" color="black">{event.location}</TextSection>
         </div>
-        <Column>
-          <TextGroup>
-            <TextHeader>Paper Airplane Activity</TextHeader>
-            <TextSection>Ballroom Lobby</TextSection>
-          </TextGroup>
+      );
+    });
+  }
 
-          <TextGroup>
-            <TextHeader>Late Night Campus Tour</TextHeader>
-            <TextSection>Cal Poly</TextSection>
-          </TextGroup>
+  return (
+    <div className={styles.schedule}>
+      <Header fontSize="4.5rem" color="white">Schedule</Header>
+      <div className={styles.scheduleWrapper}>
+        <section className={styles.scheduleSection}>
+          <div className={styles.dayHeader}>
+            <TextHeader>Saturday</TextHeader>
+          </div>
+          <Column>
+            {renderEvents(0)}
+          </Column>
+        </section>
 
-          <TextGroup>
-            <TextHeader>Late Night Campus Tour</TextHeader>
-            <TextSection>Cal Poly</TextSection>
-          </TextGroup>
-
-          <TextGroup>
-            <TextHeader>Late Night Campus Tour</TextHeader>
-            <TextSection>Cal Poly</TextSection>
-          </TextGroup>
-
-          <TextGroup>
-            <TextHeader>Late Night Campus Tour</TextHeader>
-            <TextSection>Cal Poly</TextSection>
-          </TextGroup>
-
-          <TextGroup>
-            <TextHeader>Late Night Campus Tour</TextHeader>
-            <TextSection>Cal Poly</TextSection>
-          </TextGroup>
-
-          <TextGroup>
-            <TextHeader>Late Night Campus Tour</TextHeader>
-            <TextSection>Cal Poly</TextSection>
-          </TextGroup>
-
-          <TextGroup>
-            <TextHeader>Late Night Campus Tour</TextHeader>
-            <TextSection>Cal Poly</TextSection>
-          </TextGroup>
-
-          <TextGroup>
-            <TextHeader>Late Night Campus Tour</TextHeader>
-            <TextSection>Cal Poly</TextSection>
-          </TextGroup>
-
-          <TextGroup>
-            <TextHeader>Late Night Campus Tour</TextHeader>
-            <TextSection>Cal Poly</TextSection>
-          </TextGroup>
-        </Column>
+        <section className={styles.scheduleSection}>
+          <div className={styles.dayHeader}>
+            <TextHeader>Sunday</TextHeader>
+          </div>
+          <Column>
+            {renderEvents(1)}
+          </Column>
+        </section>
       </div>
-
-      <div className={styles.scheduleSection}>
-        <div className={styles.dayHeader}>
-          <TextHeader>Sunday</TextHeader>
-        </div>
-        <Column>
-          <TextGroup>
-            <TextHeader>Cup Stacking Challenge</TextHeader>
-            <TextSection>Pacific Ballroom</TextSection>
-          </TextGroup>
-
-          <TextGroup>
-            <TextHeader>Breakfast</TextHeader>
-            <TextSection>Atlantic Ballroom</TextSection>
-          </TextGroup>
-
-          <TextGroup>
-            <TextHeader>Breakfast</TextHeader>
-            <TextSection>Atlantic Ballroom</TextSection>
-          </TextGroup>
-
-          <TextGroup>
-            <TextHeader>Breakfast</TextHeader>
-            <TextSection>Atlantic Ballroom</TextSection>
-          </TextGroup>
-        </Column>
-      </div>
+      <img className={styles.bottomGrass_image} src={bottomGrass} alt="grass" />
     </div>
-  </div>
-);
+  );
+};
 
 export default Schedule;

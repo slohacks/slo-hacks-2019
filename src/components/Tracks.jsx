@@ -24,7 +24,7 @@ const Tracks = () => (
 
       <div className={styles.trackContainer}>
         <img className={styles.image} src={machine} alt={machine} />
-        <TextHeader fontSize="2rem" color="white">Ai + Machine</TextHeader>
+        <TextHeader fontSize="2rem" color="white">AI + Machine</TextHeader>
         <TextHeader fontSize="2rem" color="white">Learning</TextHeader>
         <TextSection color="white">
           A hackathon is an event, typically lasting several days,

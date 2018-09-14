@@ -1,18 +1,18 @@
 .tracks {
   display: grid;
   grid-area: tracks;
-  grid-template-columns: 1fr 8fr 1fr;
-  grid-template-rows: 2fr 2fr auto 2fr;
+  grid-template-columns: 1fr 10fr 1fr;
+  grid-row-gap: 2rem;
   grid-template-areas:
-    '. . .'
     '. header.'
-    '. track .'
-    '. . .';
+    '. track .';
   background-image: url('../assets/tracks.png');
   background-size: cover;
   -ms-transform: rotate(-10deg); /* IE 9 */
   -webkit-transform: rotate(-10deg); /* Safari */
   transform: rotate(-10deg);
+  padding: 6rem 0;
+  margin: 8rem 0;
 }
 
 .track {

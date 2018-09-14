@@ -1,4 +1,5 @@
 .history {
+  margin-top: 8rem;
   grid-area: history;
 }
 
@@ -9,7 +10,6 @@
   '. historyHeader historyText .';
 }
 
-
 .historyHeader {
   grid-area: historyHeader;
 }
@@ -18,5 +18,3 @@
   grid-area: historyText;
   text-align: right;
 }
-
-

@@ -1,11 +1,10 @@
 .schedule {
   display: grid;
-  grid-template-columns: 1fr 6fr 1fr;
-  grid-template-rows:  1fr auto 1fr;
+  grid-template-columns: 1fr 10fr 1fr;
   grid-template-areas:
   '. header .'
   '. scheduleWrapper .'
-  '. . .';
+  'bottomGrass bottomGrass bottomGrass';
   grid-area: schedule;
   background-color: #8bb261;
 }
@@ -16,22 +15,28 @@
   flex-direction: row;
   grid-area: scheduleWrapper;
   background-color: white;
-  border-radius: 2em;
-  padding: 0 4rem;
+  border-radius: 2rem;
+}
+
+.event {
+  padding: 0.5rem 0;
 }
 
 .scheduleSection {
-  width: 50%;
+  width: 45%;
 }
 
-
 .dayHeader h2{
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   color: black;
   letter-spacing: .1rem;
   text-transform: uppercase;
-  padding: 1em 0;
+  padding: 1rem 0;
   margin-bottom: 0;
   text-align: center;
+}
+
+.bottomGrass_image {
+  grid-area: bottomGrass;
 }

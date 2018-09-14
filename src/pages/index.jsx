@@ -3,6 +3,7 @@ import Tracks from '../components/Tracks';
 import History from '../components/History';
 import Baker from '../components/Baker';
 import Schedule from '../components/Schedule';
+import FAQ from '../components/FAQ';
 import styles from './index.module.css';
 
 const IndexPage = () => (
@@ -11,6 +12,7 @@ const IndexPage = () => (
     <History />
     <Baker />
     <Schedule />
+    <FAQ />
   </div>
 );
 export default IndexPage;

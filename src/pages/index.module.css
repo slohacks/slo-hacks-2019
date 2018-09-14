@@ -1,21 +1,10 @@
 .layout {
   display: grid;
-  grid-template-columns: 1fr 6fr 1fr;
-  grid-template-rows: 1fr 5fr 2fr auto auto auto;
+  grid-template-columns: 1fr 10fr 1fr;
   grid-template-areas:
-  '. . .'
   '. tracks .'
-  '. . .'
   '. history .'
   'baker baker baker'
-  'schedule schedule schedule';
+  'schedule schedule schedule'
+  'faq faq faq';
 }
-
-
-
-.scheduleWrapper {
-  background-color: #8bb261;
-  grid-area: scheduleWrapper;
-}
-
-
