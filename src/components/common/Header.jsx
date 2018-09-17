@@ -15,7 +15,7 @@ Header.propTypes = {
     PropTypes.node,
   ]).isRequired,
   color: PropTypes.string.isRequired,
-  fontSize: PropTypes.string.isRequired
-}
+  fontSize: PropTypes.string.isRequired,
+};
 
 export default Header;

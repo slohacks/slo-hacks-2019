@@ -1,0 +1,55 @@
+{
+  "body":
+  [
+    {
+      "questions": 
+      [
+        {
+          "title": "What is a hackathon?",
+          "answer": "A hackathon is an event where students with common interests from all over the nation come together and collaborate on a project over a 24-hour period."
+        },
+        {
+          "title": "Who can come?",
+          "answer": "All college students (both graduate and undergraduate) are welcome! No prior experience is necessary."
+        },
+        {
+          "title": "What can I build?",
+          "answer": "If you can think it, you can build it. We encourage students to build technological projects, whether they be software or hardware."
+        },
+        {
+          "title": "What if I don't have a team or idea?",
+          "answer": "Not a problem. There will be time to find other students who don't have a team yet!"
+        },
+        {
+          "title": "Still have questions?",
+          "answer": "Feel free to shoot us an email at team@slohacks.com or contact us on Facebook!"
+        }
+      ]
+    },
+    {
+      "questions":
+      [
+        {
+          "title": "What should I bring?",
+          "answer": "Bring your ID, computer, and sleeping bag (optional). All the necessary equipment for hardware projects will be provided."
+        },
+        {
+          "title": "How much does it cost?",
+          "answer": "Food and admission are absolutely FREE! Commute will be free for students traveling within California."
+        },
+        {
+          "title": "Is there a code of conduct?",
+          "answer": "Please refer to the MLH website."
+        },
+        {
+          "title": "What should I bring?",
+          "answer": "We will be reimbursing hackers for their transportation within California. Check your email upon acceptance for more details!"
+        },
+        {
+          "title": "What should I bring?",
+          "answer": "Feel free to shoot us an email at team@slohacks.com or contact us on Facebook."
+        }
+      ]
+    }
+  ]
+}

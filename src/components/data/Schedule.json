@@ -1,0 +1,63 @@
+{
+  "body":
+  [
+    {
+      "events": 
+      [
+        {
+          "title": "Paper Airplane Activity",
+          "location": "TBD"
+        },
+        {
+          "title": "Late Night Campus Tour",
+          "location": "TBD"
+        },
+        {
+          "title": "Breakfast",
+          "location": "TBD"
+        },
+        {
+          "title": "Android Workshop",
+          "location": "TBD"
+        },
+        {
+          "title": "Shirts Distribution",
+          "location": "TBD"
+        },
+        {
+          "title": "Lunchn",
+          "location": "TBD"
+        },
+        {
+          "title": "Raffles",
+          "location": "TBD"
+        }
+      ]
+    },
+    {
+      "events":
+      [
+        {
+          "title": "Cup Stackking Challenge",
+          "location": "TBD"
+        },
+        {
+          "title": "Breakfast",
+          "location": "TBD"
+        },
+        {
+          "title": "Hacking Ends",
+          "location": "TBD"
+        },
+        {
+          "title": "Prep for Expo",
+          "location": "TBD"
+        },
+        {
+          "title": "Expo",
+          "location": "TBD"
+        }
+      ]
+    }
+  ]
+}
