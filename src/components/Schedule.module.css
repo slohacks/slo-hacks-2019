@@ -2,11 +2,11 @@
   display: grid;
   grid-template-columns: 1fr 10fr 1fr;
   grid-template-areas:
-  '. header .'
-  '. scheduleWrapper .'
-  'bottomGrass bottomGrass bottomGrass';
+    '. header .'
+    '. scheduleWrapper .'
+    'bottomGrass bottomGrass bottomGrass';
   grid-area: schedule;
-  background-color: #8bb261;
+  background-color: #8BB261;
 }
 
 .scheduleWrapper {
@@ -14,7 +14,7 @@
   justify-content: space-around;
   flex-direction: row;
   grid-area: scheduleWrapper;
-  background-color: white;
+  background-color: #FFF;
   border-radius: 2rem;
 }
 
@@ -26,11 +26,11 @@
   width: 45%;
 }
 
-.dayHeader h2{
+.dayHeader h2 {
   font-size: 2.5rem;
   font-weight: bold;
-  color: black;
-  letter-spacing: .1rem;
+  color: #000;
+  letter-spacing: 0.1rem;
   text-transform: uppercase;
   padding: 1rem 0;
   margin-bottom: 0;
@@ -40,3 +40,4 @@
 .bottomGrass_image {
   grid-area: bottomGrass;
 }
+

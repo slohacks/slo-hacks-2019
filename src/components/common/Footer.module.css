@@ -15,14 +15,12 @@
 
 .footer__heart {
   font-size: 100%;
-  color: red;
+  color: #F00;
 }
 
 .footer__copyright {
   margin-left: 3.25rem;
 }
-
-/* Social Media Icons */ 
 
 .footer__social {
   display: flex;

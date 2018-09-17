@@ -3,10 +3,10 @@
   grid-template-columns: 1fr 9fr 2fr;
   grid-row-gap: 2rem;
   grid-template-areas:
-  '. header .'
-  '. faqWrapper .';
+    '. header .'
+    '. faqWrapper .';
   grid-area: faq;
-  background-color: rgba(135, 224, 225, .7);
+  background-color: rgba(135, 224, 225, 0.7);
   padding: 4rem 0;
 }
 
@@ -24,3 +24,4 @@
 .question {
   padding: 0.5rem 0;
 }
+

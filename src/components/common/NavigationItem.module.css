@@ -1,8 +1,9 @@
 .navitem {
   text-decoration: none;
   text-transform: uppercase;
-  font-family: Avenir;
+  font-family: Avenir, sans-serif;
   font-size: 1.25rem;
-  color: black;
+  color: #000;
   margin: 1rem;
 }
+
