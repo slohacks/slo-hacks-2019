@@ -14,8 +14,8 @@ Header.propTypes = {
     PropTypes.arrayOf(PropTypes.node),
     PropTypes.node,
   ]).isRequired,
-  color: PropTypes.string.isRequired,
-  fontSize: PropTypes.string.isRequired,
+  color: PropTypes.string,
+  fontSize: PropTypes.string,
 };
 
 export default Header;
