@@ -14,7 +14,9 @@
     ],
     "commons": [
       "commons-9607f6e6edd0bfb16f96.js",
-      "commons-9607f6e6edd0bfb16f96.js.map"
+      "build-js-styles.css",
+      "commons-9607f6e6edd0bfb16f96.js.map",
+      "build-js-styles.css.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
@@ -25,8 +27,8 @@
       "component---src-pages-404-jsx-38cd7a15be72a1308160.js.map"
     ],
     "component---src-pages-index-jsx": [
-      "component---src-pages-index-jsx-fda9d6eb86128b8ba695.js",
-      "component---src-pages-index-jsx-fda9d6eb86128b8ba695.js.map"
+      "component---src-pages-index-jsx-8c85f6135a2127ad6580.js",
+      "component---src-pages-index-jsx-8c85f6135a2127ad6580.js.map"
     ],
     "app": [
       "app-c89a0e8511d2db6801f4.js",
