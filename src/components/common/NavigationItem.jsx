@@ -7,8 +7,8 @@ const NavigationItem = ({ url, linkText }) => (
 );
 
 NavigationItem.propTypes = {
-  url: PropTypes.string,
-  linkText: PropTypes.string,
+  url: PropTypes.string.isRequired,
+  linkText: PropTypes.string.isRequired,
 };
 
 export default NavigationItem;

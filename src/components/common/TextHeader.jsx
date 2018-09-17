@@ -17,7 +17,7 @@ TextHeader.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.node),
     PropTypes.node,
-  ]),
+  ]).isRequired,
   fontSize: PropTypes.string,
   fontWeight: PropTypes.number,
   color: PropTypes.string,
