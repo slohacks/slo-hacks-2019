@@ -17,10 +17,10 @@ TextHeader.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.node),
     PropTypes.node,
-  ]).isRequired,
-  fontSize: PropTypes.string.isRequired,
-  fontWeight: PropTypes.number.isRequired,
-  color: PropTypes.string.isRequired,
+  ]),
+  fontSize: PropTypes.string,
+  fontWeight: PropTypes.number,
+  color: PropTypes.string,
 };
 
 export default TextHeader;

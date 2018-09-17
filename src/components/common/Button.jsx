@@ -26,10 +26,10 @@ Button.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.node),
     PropTypes.node,
-  ]).isRequired,
-  color: PropTypes.string.isRequired,
-  fontSize: PropTypes.string.isRequired,
-  borderRadius: PropTypes.string.isRequired,
+  ]),
+  color: PropTypes.string,
+  fontSize: PropTypes.string,
+  borderRadius: PropTypes.string,
 };
 
 export default Button;
