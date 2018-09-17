@@ -28,7 +28,6 @@ const FAQ = () => {
             {renderFAQSections(0)}
           </Column>
         </section>
-
         <section className={styles.faqSection}>
           <Column >
             {renderFAQSections(1)}

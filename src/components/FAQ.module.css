@@ -6,7 +6,7 @@
   '. header .'
   '. faqWrapper .';
   grid-area: faq;
-  background-color: rgba(135,224,225, .7);
+  background-color: rgba(135, 224, 225, .7);
   padding: 4rem 0;
 }
 
