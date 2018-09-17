@@ -8,7 +8,7 @@ before_script:
   - npm install -g gatsby-cli eslint stylelint
 script:
   - ./node_modules/.bin/eslint src/**/*.js*
-  - stylelint \"src/**/*.css\"  --aei
+  - stylelint "src/**/*.css"  --aei
   - npm run test
 before_deploy:
   - npm run build
