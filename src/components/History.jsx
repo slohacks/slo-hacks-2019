@@ -12,7 +12,7 @@ const History = () => (
         <Button fontSize="1.8rem" color="#67778e" borderRadius="1.25em">Learn More</Button>
       </div>
       <div className={styles.historyText}>
-        <TextSection fontSize="1.3rem"color="#67778e">
+        <TextSection fontSize="1.3rem" color="#67778e">
             Founded in 2017, SLO Hacks is an entirely student-run organization. We
             host multiple hackathon events year-round and we pride ourselves on
             giving students the opportunity to bring ideas to life with collaboration,

@@ -1,0 +1,10 @@
+.mountain {
+  display: flex;
+  grid-area: mountain;
+}
+
+.mountain_image {
+  height: auto;
+  align-self: center;
+  margin-bottom: 0;
+}

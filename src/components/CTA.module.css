@@ -1,0 +1,29 @@
+.cta {
+  grid-area: cta;
+  background-color: #C09766;
+  height: 80vh;
+}
+
+.ctaContainer {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ctaContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.ctaHeader {
+  color: #FFF;
+}
+
+.ctaButtonWrapper {
+  display: flex;
+  justify-content: center;
+}

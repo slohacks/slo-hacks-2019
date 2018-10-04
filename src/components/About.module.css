@@ -1,0 +1,33 @@
+.about {
+  padding-top: 18rem;
+  grid-area: about;
+  background-image: url('../assets/ground.png');
+  background-size: cover;
+  height: 100%;
+}
+
+.aboutContainer {
+  margin-top: 0;
+  background-image: url('../assets/trees.png');
+  background-size: cover;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 3fr 4fr 5fr;
+  grid-template-areas: 
+    '. aboutContent .'
+}
+
+.aboutContent {
+  grid-area: aboutContent;
+}
+
+.aboutHeader {
+  grid-area: aboutHeader;
+  height: auto;
+}
+
+.aboutText {
+  grid-area: aboutText;
+  height: auto;
+}
+

@@ -2,9 +2,14 @@
   display: grid;
   grid-template-columns: 1fr 10fr 1fr;
   grid-template-areas:
+    'hero hero hero'
+    'about about about'
     '. tracks .'
     '. history .'
     'baker baker baker'
     'schedule schedule schedule'
-    'faq faq faq';
+    'faq faq faq'
+    'sponsor sponsor sponsor'
+    'cta cta cta'
+    'footer footer footer';
 }
