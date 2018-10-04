@@ -1,0 +1,24 @@
+.sponsor {
+  padding: 4rem;
+  grid-area: sponsor;
+  background-image: linear-gradient(#B2F7FB, #81D7F2);
+  height: 100%;
+  max-width: 100%;
+}
+
+.sponsorContainer {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sponsorContent {
+  display: flex;
+  justify-content: center;
+}
+
+.sponsorButtonWrapper {
+  display: flex;
+  justify-content: center;
+}

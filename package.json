@@ -17,8 +17,8 @@
   },
   "devDependencies": {
     "babel-jest": "^22.4.3",
-    "babel-preset-airbnb": "^2.4.0",
-    "babel-preset-env": "^1.6.1",
+    "babel-preset-airbnb": "^2.6.0",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "cz-conventional-changelog": "^2.1.0",
     "eslint": "^4.19.1",
@@ -32,7 +32,7 @@
     "jest": "^22.4.3",
     "prettier": "^1.10.2",
     "react-test-renderer": "^16.3.2",
-    "stylelint": "^9.2.0",
+    "stylelint": "^9.6.0",
     "stylelint-config-standard": "^18.2.0"
   },
   "license": "MIT",
@@ -40,7 +40,7 @@
     "build": "gatsby build --prefix-paths",
     "develop": "gatsby develop",
     "gh-pages": "gatsby build --prefix-paths && gh-pages -d public",
-    "lint": "./node_modules/.bin/eslint src/**/*.js*; stylelint \"src/**/*.css\" --aei",
+    "lint": "./node_modules/.bin/eslint src/**/*.js*; stylelint \"src/**/*.css\" --di",
     "test": "jest --passWithNoTests",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage"

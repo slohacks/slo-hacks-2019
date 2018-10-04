@@ -1,0 +1,11 @@
+.sponsorLogos {
+  padding: 3rem;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.silver {
+  margin: 0 2rem;
+}

@@ -1,9 +1,9 @@
-.baker {
+.mountain {
   display: flex;
-  grid-area: baker;
+  grid-area: mountain;
 }
 
-.baker_image {
+.mountain_image {
   height: auto;
   align-self: center;
   margin-bottom: 0;
