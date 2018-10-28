@@ -22,7 +22,6 @@ const IndexPage = () => (
     <FAQ />
     <Sponsor />
     <CTA />
-    <Footer />
   </div>
 );
 export default IndexPage;

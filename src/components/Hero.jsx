@@ -11,9 +11,11 @@ const Hero = () => (
     <section className={styles.heroContainer}>
       <div className={styles.heroNav}>
         <Navigation>
-          <NavigationItem url="#" linkText="Home" />
           <NavigationItem url="#" linkText="About" />
-          <img className={styles.logo} src={logo} alt="logo" />
+          <NavigationItem url="#" linkText="Schedule" />
+          <div className={styles.logoWrapper}>
+            <img className={styles.logo} src={logo} alt="logo" />
+          </div>
           <NavigationItem url="#" linkText="FAQ" />
           <NavigationItem url="#" linkText="Sponsor" />
         </Navigation>
