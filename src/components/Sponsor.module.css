@@ -7,7 +7,7 @@
     '. sponsorButton .';
   grid-template-columns: 1fr 9fr 1fr;
   padding: 3rem 0;
-  background-image: url('../assets/sponsorBkgd.png'), linear-gradient(#b1f8fd, #7dd7f4);
+  background-image: url('../assets/sponsorBkgd.png'), linear-gradient(#B1F8FD, #7DD7F4);
   background-size: 100% auto;
   height: 200vh;
   max-width: 100%;
