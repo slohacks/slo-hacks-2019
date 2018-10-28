@@ -4,5 +4,9 @@
   font-family: Avenir, sans-serif;
   font-size: 1.25rem;
   color: #FFF;
-  margin: 1rem;
+  margin: 0 2vw;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
 }

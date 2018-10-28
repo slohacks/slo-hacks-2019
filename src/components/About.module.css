@@ -1,8 +1,7 @@
 .about {
   padding-top: 18rem;
   grid-area: about;
-  background-image: url('../assets/ground.png');
-  background-size: cover;
+  background-color: #5E6F37;
   height: 100%;
 }
 

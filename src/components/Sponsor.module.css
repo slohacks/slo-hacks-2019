@@ -2,12 +2,12 @@
   display: grid;
   grid-area: sponsor;
   grid-template-areas:
+    'sponsorTransition sponsorTransition sponsorTransition'
     '. header .'
     '. sponsorContainer .'
     '. sponsorButton .';
-  background-image: linear-gradient(#B2F7FB, #81D7F2);
-  grid-template-columns: 1fr 9fr 1fr;
-  padding: 3rem 0;
+  grid-template-columns: 1fr 10fr 1fr;
+  background-image: linear-gradient(#A7F4FA 80vh, #7DD7F4);
 }
 
 .sponsorContainer {
@@ -22,4 +22,10 @@
 
 .sponsorButtonWrapper {
   margin: 0 auto;
+}
+
+.sponsorTransition_image {
+  grid-area: sponsorTransition;
+  width: 100%;
+  height: auto;
 }

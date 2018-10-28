@@ -8,7 +8,6 @@ import Schedule from '../components/Schedule';
 import FAQ from '../components/FAQ';
 import Sponsor from '../components/Sponsor';
 import CTA from '../components/CTA';
-import Footer from '../components/common/Footer';
 import styles from './index.module.css';
 
 const IndexPage = () => (
@@ -22,7 +21,6 @@ const IndexPage = () => (
     <FAQ />
     <Sponsor />
     <CTA />
-    <Footer />
   </div>
 );
 export default IndexPage;

@@ -1,7 +1,11 @@
 .cta {
   grid-area: cta;
-  background-color: #C09766;
-  height: 80vh;
+  background-image: url('../assets/beach.png');
+  background-size: cover;
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .ctaContainer {
@@ -24,6 +28,12 @@
 }
 
 .ctaButtonWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.footerWrapper {
+  width: 100%;
   display: flex;
   justify-content: center;
 }

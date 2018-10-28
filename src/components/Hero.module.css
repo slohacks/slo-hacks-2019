@@ -1,10 +1,9 @@
 .hero {
   grid-area: hero;
-  background-image: url('../assets/hills.png'), linear-gradient(#90B5ED, #FEC08A);
-  background-position: center bottom;
+  background-image: url('../assets/hills.png'), linear-gradient(#90B5ED 20vh, #FEC08A 80vh);
   background-size: 100% auto;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 144vh;
 }
 
 .heroContainer {
@@ -17,26 +16,36 @@
 }
 
 .heroNav {
+  margin-top: 4vh;
   grid-area: heroNav;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
 }
 
 .logo {
-  height: 40px;
-  margin: auto 1vh;
+  height: 17vh;
+}
+
+.logoWrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 2vw;
 }
 
 .heroContent {
   grid-area: heroContent;
-  height: 80vh;
   width: 100vw;
   display: flex;
-  justify-content: center;
+  margin-top: 7vh;
   align-items: center;
   flex-direction: column;
 }
 
 .heroTheme {
-  width: 40vw;
+  width: 30vw;
   text-align: center;
 }
 
