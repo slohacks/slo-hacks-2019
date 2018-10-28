@@ -1,24 +1,25 @@
 .sponsor {
-  padding: 4rem;
+  display: grid;
   grid-area: sponsor;
+  grid-template-areas:
+    '. header .'
+    '. sponsorContainer .'
+    '. sponsorButton .';
   background-image: linear-gradient(#B2F7FB, #81D7F2);
-  height: 100%;
-  max-width: 100%;
+  grid-template-columns: 1fr 9fr 1fr;
+  padding: 3rem 0;
 }
 
 .sponsorContainer {
-  margin: 0;
+  grid-area: sponsorContainer;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .sponsorContent {
-  display: flex;
-  justify-content: center;
+  width: 100%;
 }
 
 .sponsorButtonWrapper {
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
 }

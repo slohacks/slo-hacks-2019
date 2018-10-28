@@ -1,13 +1,12 @@
 .faq {
   display: grid;
   grid-template-columns: 1fr 9fr 2fr;
-  grid-row-gap: 2rem;
   grid-template-areas:
+    'clouds clouds clouds'
     '. header .'
     '. faqWrapper .';
   grid-area: faq;
-  background-color: rgba(135, 224, 225, 0.7);
-  padding: 4rem 0;
+  background-color: #DCF6F6;
 }
 
 .faqWrapper {
@@ -23,4 +22,8 @@
 
 .question {
   padding: 0.5rem 0;
+}
+
+.cloud_image {
+  grid-area: clouds;
 }

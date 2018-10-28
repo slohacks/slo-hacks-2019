@@ -8,9 +8,6 @@
     '. track .';
   background-image: url('../assets/tracks.png');
   background-size: cover;
-  -ms-transform: rotate(-10deg); /* IE 9 */
-  -webkit-transform: rotate(-10deg); /* Safari */
-  transform: rotate(-10deg);
   padding: 6rem 0;
   margin: 8rem 0;
 }

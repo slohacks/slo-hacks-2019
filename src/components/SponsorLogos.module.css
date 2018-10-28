@@ -1,11 +1,10 @@
 .sponsorLogos {
-  padding: 3rem;
   display: flex;
-  flex-grow: 1;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: space-around;
 }
 
 .silver {
-  margin: 0 2rem;
+  display: block;
+  width: 28%;
+  height: auto;
 }
