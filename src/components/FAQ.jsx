@@ -5,6 +5,7 @@ import Column from '../components/common/Column';
 import TextSection from '../components/common/TextSection';
 import TextHeader from '../components/common/TextHeader';
 import questions from './data/FAQ.json';
+import clouds from '../assets/clouds.png';
 
 const FAQ = () => {
   function renderFAQSections(sectionNum) {
@@ -35,6 +36,7 @@ const FAQ = () => {
           </Column>
         </section>
       </div>
+      <img className={styles.cloud_image} src={clouds} alt="clouds" />
     </div>
   );
 };

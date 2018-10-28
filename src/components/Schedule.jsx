@@ -5,7 +5,6 @@ import TextSection from '../components/common/TextSection';
 import TextHeader from '../components/common/TextHeader';
 import styles from './Schedule.module.css';
 import events from './data/Schedule.json';
-import bottomGrass from '../assets/bottomGrass.png';
 
 const Schedule = () => {
   function renderEvents(eventSection) {
@@ -42,7 +41,6 @@ const Schedule = () => {
           </Column>
         </section>
       </div>
-      <img className={styles.bottomGrass_image} src={bottomGrass} alt="grass" />
     </div>
   );
 };
