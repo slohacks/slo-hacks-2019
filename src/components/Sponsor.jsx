@@ -3,6 +3,7 @@ import Header from '../components/common/Header';
 import Button from '../components/common/Button';
 import SponsorLogos from '../components/SponsorLogos';
 import styles from './Sponsor.module.css';
+import sponsorTransition from '../assets/sponsorBkgd.png';
 
 const Sponsor = () => (
   <div className={styles.sponsor}>
@@ -15,6 +16,7 @@ const Sponsor = () => (
         <Button className={styles.sponsorButton} color="#FFF">Interested in supporting us?</Button>
       </div>
     </section>
+    <img className={styles.sponsorTransition_image} src={sponsorTransition} alt="sponsorTransition" />
   </div>
 );
 
