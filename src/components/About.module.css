@@ -1,5 +1,4 @@
 .about {
-  padding-top: 18rem;
   grid-area: about;
   background-color: #5E6F37;
   height: 100%;
@@ -8,7 +7,7 @@
 .aboutContainer {
   margin-top: 0;
   background-image: url('../assets/trees.png');
-  background-size: cover;
+  background-size: 100% auto;
   height: 100vh;
   display: grid;
   grid-template-columns: 3fr 4fr 5fr;
@@ -17,6 +16,7 @@
 
 .aboutContent {
   grid-area: aboutContent;
+  padding-top: 8rem;
 }
 
 .aboutHeader {
