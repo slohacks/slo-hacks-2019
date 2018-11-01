@@ -16,7 +16,7 @@
 
 .aboutContent {
   grid-area: aboutContent;
-  padding-top: 8rem;
+  padding-top: 8vh;
 }
 
 .aboutHeader {
