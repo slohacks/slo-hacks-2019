@@ -7,6 +7,7 @@ import sponsorTransition from '../assets/sponsorBkgd.png';
 
 const Sponsor = () => (
   <div className={styles.sponsor}>
+    <img className={styles.sponsorTransition_image} src={sponsorTransition} alt="sponsorTransition" />
     <Header fontSize="4.5rem" color="#FFF">Sponsors</Header>
     <section className={styles.sponsorContainer}>
       <div className={styles.sponsorContent}>
@@ -16,7 +17,6 @@ const Sponsor = () => (
         <Button className={styles.sponsorButton} color="#FFF">Interested in supporting us?</Button>
       </div>
     </section>
-    <img className={styles.sponsorTransition_image} src={sponsorTransition} alt="sponsorTransition" />
   </div>
 );
 

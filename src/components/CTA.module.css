@@ -1,8 +1,8 @@
 .cta {
   grid-area: cta;
   background-image: url('../assets/beach.png');
-  background-size: cover;
-  height: 200vh;
+  background-size: 100% auto;
+  height: 180vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -33,6 +33,8 @@
 }
 
 .footerWrapper {
+  font-family: Gotham;
+  font-weight: 300;
   width: 100%;
   display: flex;
   justify-content: center;

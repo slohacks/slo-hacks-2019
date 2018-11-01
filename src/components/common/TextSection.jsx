@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './TextSection.module.css';
 
 const TextSection = ({
   children,
@@ -9,7 +10,7 @@ const TextSection = ({
 }) => {
   const sectionText = { fontWeight, fontSize, color };
   return (
-    <p style={sectionText}>{children}</p>
+    <p className={styles.sectionText} style={sectionText}>{children}</p>
   );
 };
 

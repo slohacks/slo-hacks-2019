@@ -1,4 +1,5 @@
 .header {
   text-transform: uppercase;
   grid-area: header;
+  font-family: Gotham;
 }

@@ -1,4 +1,5 @@
 .sponsor {
+  background-image: linear-gradient(#A7F4FA 80vh, #7DD7F4);
   display: grid;
   grid-area: sponsor;
   grid-template-areas:
@@ -7,16 +8,17 @@
     '. sponsorContainer .'
     '. sponsorButton .';
   grid-template-columns: 1fr 10fr 1fr;
-  background-image: linear-gradient(#A7F4FA 80vh, #7DD7F4);
 }
 
 .sponsorContainer {
   grid-area: sponsorContainer;
   display: flex;
   flex-direction: column;
+  padding-bottom: 20vh;
 }
 
 .sponsorContent {
+  padding-top: 10vh;
   width: 100%;
 }
 
