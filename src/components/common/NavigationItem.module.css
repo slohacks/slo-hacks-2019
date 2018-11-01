@@ -1,7 +1,7 @@
 .navitem {
   text-decoration: none;
   text-transform: uppercase;
-  font-family: Avenir, sans-serif;
+  font-family: Gotham, sans-serif;
   font-size: 1.25rem;
   color: #FFF;
   margin: 0 2vw;
@@ -9,5 +9,4 @@
   align-content: center;
   align-items: center;
   justify-content: center;
-  font-family: Gotham;
 }

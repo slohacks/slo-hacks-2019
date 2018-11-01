@@ -1,9 +1,8 @@
 .sectionHeader {
-  font-family: Gotham;
+  font-family: Gotham, sans-serif;
 }
 
 .sectionText {
-  font-family: Gotham;
+  font-family: Gotham, sans-serif;
   font-weight: 300;
 }
-

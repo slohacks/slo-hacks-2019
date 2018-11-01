@@ -33,7 +33,7 @@
 }
 
 .footerWrapper {
-  font-family: Gotham;
+  font-family: Gotham, sans-serif;
   font-weight: 300;
   width: 100%;
   display: flex;
