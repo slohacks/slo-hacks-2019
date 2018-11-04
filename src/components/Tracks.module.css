@@ -4,31 +4,53 @@
   grid-template-columns: 1fr 10fr 1fr;
   grid-row-gap: 2rem;
   grid-template-areas:
-    '. header.'
+    '. trackHeader .'
     '. track .';
   background-image: url('../assets/tracks.png');
   background-size: cover;
-  padding: 6rem 0;
-  margin: 8rem 0;
+  padding: 2em 0;
 }
 
 .track {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
   grid-area: track;
-  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.trackHeader {
+  color: #FFF;
+  font-size: 4.5rem;
+  grid-area: trackHeader;
 }
 
 .trackContainer {
-  width: 25%;
-  text-align: center;
+  padding: 1rem;
 }
 
 .track h2:first-of-type {
   margin-bottom: 0;
 }
 
+.trackImageContainer {
+  text-align: center;
+}
+
 .image {
-  width: 60%;
+  width: 40%;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+  .track {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .trackContainer {
+    width: 30%;
+  }
+
+  .trackImageContainer {
+    text-align: left;
+  }
 }

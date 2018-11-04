@@ -1,7 +1,5 @@
 import React from 'react';
 import styles from './FAQ.module.css';
-import Header from './common/Header';
-import Column from '../components/common/Column';
 import TextSection from '../components/common/TextSection';
 import TextHeader from '../components/common/TextHeader';
 import questions from './data/FAQ.json';
@@ -22,18 +20,14 @@ const FAQ = () => {
 
   return (
     <div className={styles.faq}>
-      <Header fontSize="4.5rem" color="black">FAQ</Header>
+      <h1 className={styles.faqHeader}>FAQ</h1>
       <div className={styles.faqWrapper}>
         <section className={styles.faqSection}>
-          <Column>
-            {renderFAQSections(0)}
-          </Column>
+          {renderFAQSections(0)}
         </section>
 
         <section className={styles.faqSection}>
-          <Column>
-            {renderFAQSections(1)}
-          </Column>
+          {renderFAQSections(1)}
         </section>
       </div>
       <img className={styles.cloud_image} src={clouds} alt="clouds" />

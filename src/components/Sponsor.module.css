@@ -1,13 +1,37 @@
 .sponsor {
   display: grid;
   grid-area: sponsor;
+  grid-template-columns: 1fr 10fr 1fr;
   grid-template-areas:
     'sponsorTransition sponsorTransition sponsorTransition'
-    '. header .'
+    '. sponsorHeader .'
     '. sponsorContainer .'
     '. sponsorButton .';
-  grid-template-columns: 1fr 10fr 1fr;
   background-image: linear-gradient(#A7F4FA 80vh, #7DD7F4);
+}
+
+.sponsorHeader {
+  grid-area: sponsorHeader;
+  font-size: 2.5rem;
+  color: #FFF;
+}
+
+.sponsorButtonWrapper {
+  margin: 0 auto;
+  padding: 2em;
+}
+
+.sponsorButtonWrapper button {
+  font-size: 1.15rem;
+  color: #FFF;
+  border: 3px solid #FFF;
+  border-radius: 1.25em;
+  background: transparent;
+  display: inline-block;
+  padding: 0.5rem 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
 }
 
 .sponsorContainer {
@@ -16,16 +40,6 @@
   flex-direction: column;
 }
 
-.sponsorContent {
-  width: 100%;
-}
-
-.sponsorButtonWrapper {
-  margin: 0 auto;
-}
-
 .sponsorTransition_image {
   grid-area: sponsorTransition;
-  width: 100%;
-  height: auto;
 }
