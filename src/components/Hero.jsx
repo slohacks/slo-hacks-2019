@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../components/common/Header';
 import Button from '../components/common/Button';
 import logo from '../assets/logo-white.png';
 import styles from './Hero.module.css';
@@ -18,8 +17,7 @@ const Hero = () => (
       </div>
       <div className={styles.heroContent}>
         <div className={styles.heroTheme}>
-          <Header fontSize="5rem" color="white">Small Town</Header>
-          <Header fontSize="6rem" color="white">Big Ideas</Header>
+          <h1>Small Town<br />Big Ideas</h1>
         </div>
         <div className={styles.heroButtonContainer}>
           <Button className={styles.heroButton} color="#FFF">Join our mailing list</Button>
@@ -30,4 +28,3 @@ const Hero = () => (
 );
 
 export default Hero;
-

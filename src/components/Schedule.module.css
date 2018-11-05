@@ -40,3 +40,8 @@
 .bottomGrass_image {
   grid-area: bottomGrass;
 }
+
+.scheduleHeader {
+  font-size: 4.5rem;
+  color: white;
+}

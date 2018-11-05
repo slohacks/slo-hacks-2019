@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../components/common/Header';
 import Column from '../components/common/Column';
 import TextSection from '../components/common/TextSection';
 import TextHeader from '../components/common/TextHeader';
@@ -21,7 +20,7 @@ const Schedule = () => {
 
   return (
     <div className={styles.schedule}>
-      <Header fontSize="4.5rem" color="white">Schedule</Header>
+      <h1 className={styles.scheduleHeader}>Schedule</h1>
       <div className={styles.scheduleWrapper}>
         <section className={styles.scheduleSection}>
           <div className={styles.dayHeader}>
