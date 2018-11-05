@@ -3,7 +3,14 @@
   background-image: url('../assets/hills.png'), linear-gradient(#90B5ED 20vh, #FEC08A 80vh);
   background-size: 100% auto;
   background-repeat: no-repeat;
-  height: 144vh;
+  background-position: bottom;
+  height: 100vh;
+}
+
+@media screen and (min-width: 992px) {
+  .hero {
+    height: 124vh;
+  }
 }
 
 .heroContainer {
