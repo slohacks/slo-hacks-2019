@@ -19,14 +19,17 @@
   padding-top: 8vh;
 }
 
+.aboutContent h1 {
+  color: #FFF;
+}
+
+.aboutContent p {
+  color: #FFF;
+  font-size: 1.25rem;
+}
+
 .aboutHeader {
   grid-area: aboutHeader;
   height: auto;
-  font-size: 3rem;
-  color: #fff;
-}
-
-.aboutText {
-  grid-area: aboutText;
-  height: auto;
+  font-size: 3.25rem;
 }
