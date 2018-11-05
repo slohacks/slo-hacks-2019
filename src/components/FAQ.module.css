@@ -6,7 +6,7 @@
     '. faqHeader .'
     '. faqWrapper .';
   grid-area: faq;
-  background-color: #DCF6F6;
+  background: linear-gradient(to top, #E1F5F6, #DCF6F6);
 }
 
 .faqWrapper {
