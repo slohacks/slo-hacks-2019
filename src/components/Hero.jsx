@@ -7,13 +7,19 @@ const Hero = () => (
   <div className={styles.hero}>
     <section className={styles.heroContainer}>
       <div className={styles.heroNav}>
-        <a className={styles.heroLink} href="#">Home</a>
-        <a className={styles.heroLink} href="#">Schedule</a>
-        <a className={styles.heroLogo} href="#">
-          <img src={logo} alt="logo" />
-        </a>
-        <a className={styles.heroLink} href="#">Sponsors</a>
-        <a className={styles.heroLink} href="#">FAQ</a>
+        <div className={styles.navLeft}>
+          <a className={styles.heroLink} href="#">Home</a>
+          <a className={styles.heroLink} href="#">Schedule</a>
+        </div>
+        <div className={styles.heroLogo}>
+          <a href="#">
+            <img src={logo} alt="logo" />
+          </a>
+        </div>
+        <div className={styles.navRight}>
+          <a className={styles.heroLink} href="#">Sponsors</a>
+          <a className={styles.heroLink} href="#">FAQ</a>
+        </div>
       </div>
       <div className={styles.heroContent}>
         <div className={styles.heroTheme}>

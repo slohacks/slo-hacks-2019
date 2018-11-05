@@ -17,27 +17,57 @@
 
 .heroNav {
   padding-top: 3rem;
+  display: grid;
+  grid-template-areas: '. navLogo .';
   grid-area: heroNav;
-  display: flex;
-  justify-content: space-evenly;
+}
+
+@media screen and (min-width: 992px) {
+  .heroNav {
+    grid-template-areas: 'navLeft navLogo navRight';
+  }
+
+  .heroNav .navLeft,
+  .heroNav .navRight {
+    display: flex;
+  }
+}
+
+.navLeft {
+  display: none;
+  flex-direction: row;
+  grid-area: navLeft;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navRight {
+  display: none;
+  flex-direction: row;
+  grid-area: navRight;
   align-items: center;
 }
 
 .heroLink {
   text-decoration: none;
   text-transform: uppercase;
-  font-family: Avenir, sans-serif;
+  font-family: 'Brandon Grotesque', sans-serif;
   font-size: 1.25rem;
   color: #FFF;
-  text-align: center;
-  width: 20vw;
-  display: inline-block;
+  padding: 2rem;
 }
 
 .heroLogo {
-  width: 12%;
-  height: auto;
-  align-self: center;
+  grid-area: navLogo;
+  display: flex;
+  justify-content: center;
+}
+
+.heroLogo img {
+  display: block;
+  width: auto;
+  max-width: none;
+  height: 8rem;
 }
 
 .heroContent {
