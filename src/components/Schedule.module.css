@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 10fr 1fr;
   grid-template-areas:
-    '. header .'
+    '. scheduleHeader .'
     '. scheduleWrapper .'
     'bottomGrass bottomGrass bottomGrass';
   grid-area: schedule;
@@ -10,31 +10,38 @@
 }
 
 .scheduleWrapper {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+  grid-template-areas:
+    '. friday .'
+    '. saturday .'
+    '. sunday .';
   grid-area: scheduleWrapper;
   background-color: #FFF;
   border-radius: 2rem;
 }
 
-.event {
-  padding: 0.5rem 0;
+.saturday {
+  grid-area: saturday;
 }
 
-.scheduleSection {
-  width: 45%;
+.friday {
+  grid-area: friday;
 }
 
-.dayHeader h2 {
+.sunday {
+  grid-area: sunday;
+}
+
+.dayHeader {
   font-size: 2.5rem;
   font-weight: bold;
   color: #000;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
-  padding: 1rem 0;
   margin-bottom: 0;
   text-align: center;
+  padding: 2rem;
 }
 
 .bottomGrass_image {
@@ -44,4 +51,15 @@
 .scheduleHeader {
   font-size: 3.25rem;
   color: #FFF;
+  grid-area: scheduleHeader;
+}
+
+@media screen and (min-width: 992px) {
+  .scheduleWrapper {
+    grid-row-gap: 2rem;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-template-areas: 'friday saturday sunday';
+    padding: 2rem;
+    text-align: center;
+  }
 }
