@@ -1,5 +1,4 @@
 import React from 'react';
-import Column from '../components/common/Column';
 import TextSection from '../components/common/TextSection';
 import TextHeader from '../components/common/TextHeader';
 import styles from './Schedule.module.css';
@@ -22,23 +21,28 @@ const Schedule = () => {
     <div className={styles.schedule}>
       <h1 className={styles.scheduleHeader}>Schedule</h1>
       <div className={styles.scheduleWrapper}>
-        <section className={styles.scheduleSection}>
-          <div className={styles.dayHeader}>
-            <TextHeader>Saturday</TextHeader>
-          </div>
-          <Column>
-            {renderEvents(0)}
-          </Column>
-        </section>
 
-        <section className={styles.scheduleSection}>
-          <div className={styles.dayHeader}>
-            <TextHeader>Sunday</TextHeader>
-          </div>
-          <Column>
+        <div className={styles.friday}>
+          <section className={styles.scheduleSection}>
+            <h2 className={styles.dayHeader}>Friday</h2>
             {renderEvents(1)}
-          </Column>
-        </section>
+          </section>
+        </div>
+
+        <div className={styles.saturday}>
+          <section className={styles.scheduleSection}>
+            <h2 className={styles.dayHeader}>Saturday</h2>
+            {renderEvents(0)}
+          </section>
+        </div>
+
+        <div className={styles.sunday}>
+          <section className={styles.scheduleSection}>
+            <h2 className={styles.dayHeader}>Sunday</h2>
+            {renderEvents(1)}
+          </section>
+        </div>
+
       </div>
     </div>
   );
