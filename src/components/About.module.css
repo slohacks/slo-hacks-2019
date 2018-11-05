@@ -31,5 +31,5 @@
 .aboutHeader {
   grid-area: aboutHeader;
   height: auto;
-  font-size: 3rem;
+  font-size: 3.25rem;
 }

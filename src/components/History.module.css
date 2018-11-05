@@ -49,10 +49,6 @@
 }
 
 @media screen and (min-width: 992px) {
-  .historyHeader h1 {
-    font-size: 4.25rem;
-  }
-
   .historyContainer {
     display: grid;
     grid-template-columns: 1fr 5fr 5fr 1fr;
