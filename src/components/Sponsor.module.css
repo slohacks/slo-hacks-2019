@@ -7,7 +7,7 @@
     '. sponsorHeader .'
     '. sponsorContainer .'
     '. sponsorButton .';
-  background-image: linear-gradient(#A7F4FA 80vh, #7DD7F4);
+    background: linear-gradient(#B3F1F9 80vh, #7DD8F4);
 }
 
 .sponsorHeader {
