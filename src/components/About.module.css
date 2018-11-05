@@ -1,17 +1,27 @@
 .about {
   grid-area: about;
-  background-color: #5E6F37;
+  background-color: #626E3E;
   height: 100%;
 }
 
 .aboutContainer {
   margin-top: 0;
   background-image: url('../assets/trees.png');
-  background-size: 100% auto;
+  background-size: auto 100%;
+  background-repeat: none;
+  background-position: center top;
   height: 100vh;
   display: grid;
-  grid-template-columns: 3fr 4fr 5fr;
+  grid-template-columns: 2fr 5fr 2fr;
   grid-template-areas: '. aboutContent .';
+}
+
+@media screen and (min-width: 992px) {
+  .aboutContainer {
+    background-position-x: 10%;
+    background-size: 100% auto;
+    grid-template-columns: 3fr 4fr 5fr;
+  }
 }
 
 .aboutContent {
