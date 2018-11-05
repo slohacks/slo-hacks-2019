@@ -5,15 +5,59 @@
 
 .historyContainer {
   display: grid;
-  grid-template-columns: 1fr 5fr 5fr 1fr;
-  grid-template-areas: '. historyHeader historyText .';
+  grid-template-columns: 1fr 10fr 1fr;
+  grid-template-areas:
+    '. historyHeader .'
+    '. historyText .'
+    '. historyButton .';
 }
 
 .historyHeader {
   grid-area: historyHeader;
 }
 
+.historyHeader h1 {
+  font-size: 3.25rem;
+  text-transform: uppercase;
+}
+
 .historyText {
   grid-area: historyText;
-  text-align: right;
+  text-align: left;
+}
+
+.historyText p {
+  font-size: 1.45rem;
+  color: #67778E;
+}
+
+.historyButton {
+  grid-area: historyButton;
+}
+
+.historyButton button {
+  font-size: 1.15rem;
+  color: #67778E;
+  border: 3px solid #67778E;
+  border-radius: 1.25em;
+  background: transparent;
+  display: inline-block;
+  padding: 0.5rem 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 992px) {
+  .historyHeader h1 {
+    font-size: 4.25rem;
+  }
+
+  .historyContainer {
+    display: grid;
+    grid-template-columns: 1fr 5fr 5fr 1fr;
+    grid-template-areas:
+      '. historyHeader historyText .'
+      '. historyButton . .';
+  }
 }

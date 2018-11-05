@@ -1,19 +1,17 @@
 import React from 'react';
-import Header from '../components/common/Header';
-import Button from '../components/common/Button';
 import SponsorLogos from '../components/SponsorLogos';
 import styles from './Sponsor.module.css';
 import sponsorTransition from '../assets/sponsorBkgd.png';
 
 const Sponsor = () => (
   <div className={styles.sponsor}>
-    <Header fontSize="4.5rem" color="#FFF">Sponsors</Header>
     <section className={styles.sponsorContainer}>
+      <h1 className={styles.sponsorHeader}>Sponsors</h1>
       <div className={styles.sponsorContent}>
         <SponsorLogos />
       </div>
       <div className={styles.sponsorButtonWrapper}>
-        <Button className={styles.sponsorButton} color="#FFF">Interested in supporting us?</Button>
+        <button className={styles.sponsorButton} color="#FFF">Interested in supporting us?</button>
       </div>
     </section>
     <img className={styles.sponsorTransition_image} src={sponsorTransition} alt="sponsorTransition" />

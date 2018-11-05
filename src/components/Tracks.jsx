@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../components/common/Header';
+
 import TextHeader from '../components/common/TextHeader';
 import TextSection from '../components/common/TextSection';
 import styles from './Tracks.module.css';
@@ -9,10 +9,12 @@ import hardware from '../assets/hardware.png';
 
 const Tracks = () => (
   <div className={styles.tracks}>
-    <Header color="white" fontSize="4rem">Technical Tracks</Header>
+    <h1 className={styles.trackHeader}>Technical Tracks</h1>
     <div className={styles.track}>
       <div className={styles.trackContainer}>
-        <img className={styles.image} src={game} alt={game} />
+        <div className={styles.trackImageContainer}>
+          <img className={styles.image} src={game} alt={game} />
+        </div>
         <TextHeader fontSize="2rem" color="white">Game</TextHeader>
         <TextHeader fontSize="2rem" color="white">Design</TextHeader>
         <TextSection color="white">
@@ -23,7 +25,9 @@ const Tracks = () => (
       </div>
 
       <div className={styles.trackContainer}>
-        <img className={styles.image} src={machine} alt={machine} />
+        <div className={styles.trackImageContainer}>
+          <img className={styles.image} src={machine} alt={machine} />
+        </div>
         <TextHeader fontSize="2rem" color="white">AI + Machine</TextHeader>
         <TextHeader fontSize="2rem" color="white">Learning</TextHeader>
         <TextSection color="white">
@@ -34,7 +38,9 @@ const Tracks = () => (
       </div>
 
       <div className={styles.trackContainer}>
-        <img className={styles.image} src={hardware} alt={hardware} />
+        <div className={styles.trackImageContainer}>
+          <img className={styles.image} src={hardware} alt={hardware} />
+        </div>
         <TextHeader fontSize="2rem" color="white">IoT +</TextHeader>
         <TextHeader fontSize="2rem" color="white">Hardware</TextHeader>
         <TextSection color="white">
