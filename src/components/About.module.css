@@ -22,6 +22,8 @@
 .aboutHeader {
   grid-area: aboutHeader;
   height: auto;
+  font-size: 3rem;
+  color: #fff;
 }
 
 .aboutText {
