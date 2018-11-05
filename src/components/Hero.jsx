@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '../components/common/Button';
 import logo from '../assets/logo-white.png';
+import theme from '../assets/theme.png';
 import styles from './Hero.module.css';
 
 const Hero = () => (
@@ -23,7 +24,7 @@ const Hero = () => (
       </div>
       <div className={styles.heroContent}>
         <div className={styles.heroTheme}>
-          <h1>Small Town<br />Big Ideas</h1>
+          <img src={theme} alt={theme} />
         </div>
         <div className={styles.heroButtonContainer}>
           <Button className={styles.heroButton} color="#FFF">Join our mailing list</Button>
