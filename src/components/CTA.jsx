@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from '../components/common/Button';
 import Footer from '../components/common/Footer';
 import styles from './CTA.module.css';
 
