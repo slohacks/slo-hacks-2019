@@ -16,7 +16,9 @@ const History = () => (
         </p>
       </div>
       <div className={styles.historyButton}>
-        <button>Learn More</button>
+        <a rel="noopener noreferrer" href="https://slohacks.com/club" target="_blank">
+          <button>Learn More</button>
+        </a>
       </div>
     </section>
   </div>
