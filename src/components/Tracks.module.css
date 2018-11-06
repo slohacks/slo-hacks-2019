@@ -6,7 +6,8 @@
   grid-template-areas:
     '. trackHeader .'
     '. track .';
-  background-image: url('../assets/tracks.png');
+  background-image: url('../assets/tracksBlur.png');
+  background-position-x: 20%;
   background-size: cover;
   padding: 2em 0;
 }
@@ -45,6 +46,14 @@
 }
 
 @media screen and (min-width: 992px) {
+  .tracks {
+    background-image: url('../assets/tracks.png');
+    background-size: contain;
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
   .track {
     flex-direction: row;
     justify-content: space-between;
