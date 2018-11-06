@@ -20,7 +20,7 @@ const FAQ = () => {
 
   return (
     <div className={styles.faq}>
-      <h1 className={styles.faqHeader}>FAQ</h1>
+      <h1 id="faq" className={styles.faqHeader}>FAQ</h1>
       <div className={styles.faqWrapper}>
         <section className={styles.faqSection}>
           {renderFAQSections(0)}

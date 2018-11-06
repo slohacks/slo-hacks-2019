@@ -1,16 +1,17 @@
 import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Button from '../components/common/Button';
 import logo from '../assets/logo-white.png';
 import theme from '../assets/theme.png';
 import styles from './Hero.module.css';
 
 const Hero = () => (
-  <div className={styles.hero}>
+  <div id="hero" className={styles.hero}>
     <section className={styles.heroContainer}>
       <div className={styles.heroNav}>
         <div className={styles.navLeft}>
-          <a className={styles.heroLink} href="#">Home</a>
-          <a className={styles.heroLink} href="#">Schedule</a>
+          <AnchorLink className={styles.heroLink} href="#hero">Home</AnchorLink>
+          <AnchorLink className={styles.heroLink} href="#schedule">Schedule</AnchorLink>
         </div>
         <div className={styles.heroLogo}>
           <a href="#">
@@ -18,8 +19,8 @@ const Hero = () => (
           </a>
         </div>
         <div className={styles.navRight}>
-          <a className={styles.heroLink} href="#">Sponsors</a>
-          <a className={styles.heroLink} href="#">FAQ</a>
+          <AnchorLink className={styles.heroLink} href="#sponsors">Sponsors</AnchorLink>
+          <AnchorLink className={styles.heroLink} href="#faq">FAQ</AnchorLink>
         </div>
       </div>
       <div className={styles.heroContent}>

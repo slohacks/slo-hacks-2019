@@ -6,7 +6,7 @@ import sponsorTransition from '../assets/sponsorBkgd.png';
 const Sponsor = () => (
   <div className={styles.sponsor}>
     <section className={styles.sponsorContainer}>
-      <h1 className={styles.sponsorHeader}>Sponsors</h1>
+      <h1 id="sponsors" className={styles.sponsorHeader}>Sponsors</h1>
       <div className={styles.sponsorContent}>
         <SponsorLogos />
       </div>
