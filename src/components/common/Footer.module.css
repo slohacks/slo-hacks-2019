@@ -8,19 +8,13 @@
 .footer__text {
   color: #FFF;
   margin-left: 0.05rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  text-align: center;
   font-size: 3vh;
 }
 
 .footer__heart {
   font-size: 100%;
   color: #F00;
-}
-
-.footer__copyright {
-  margin-left: 3.25rem;
 }
 
 .footer__social {

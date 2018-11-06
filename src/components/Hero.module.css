@@ -5,6 +5,7 @@
   background-repeat: no-repeat;
   background-position: bottom;
   height: 100vh;
+  position: relative;
 }
 
 @media screen and (min-width: 992px) {
@@ -101,4 +102,20 @@
   grid-area: heroButton;
   display: flex;
   justify-content: center;
+}
+
+.banner img {
+  position: absolute;
+  width: auto;
+  height: 15vh;
+  margin-right: 5vw;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .banner img {
+    height: 30vh;
+    margin-right: 4vw;
+  }
 }
