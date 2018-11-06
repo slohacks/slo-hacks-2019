@@ -14,7 +14,7 @@ const Hero = () => (
           <AnchorLink className={styles.heroLink} href="#schedule">Schedule</AnchorLink>
         </div>
         <div className={styles.heroLogo}>
-          <a href="#">
+          <a href="https://www.slohacks.com">
             <img src={logo} alt="logo" />
           </a>
         </div>
@@ -28,7 +28,9 @@ const Hero = () => (
           <img src={theme} alt={theme} />
         </div>
         <div className={styles.heroButtonContainer}>
-          <Button className={styles.heroButton} color="#FFF">Join our mailing list</Button>
+          <a rel="noopener noreferrer" href="http://eepurl.com/c0M_rj" target="_blank">
+            <Button className={styles.heroButton} color="#FFF">Join mailing list!</Button>
+          </a>
         </div>
       </div>
     </section>
