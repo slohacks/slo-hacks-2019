@@ -15,8 +15,10 @@ const History = () => (
           technology, and hacking!
         </p>
       </div>
-      <div className={styles.historyButton}>
-        <button>Learn More</button>
+      <div className={styles.historyButtonContainer}>
+        <a rel="noopener noreferrer" href="https://slohacks.com/club" target="_blank">
+          <button className={styles.historyButton}>Learn More</button>
+        </a>
       </div>
     </section>
   </div>

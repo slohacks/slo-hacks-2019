@@ -2,38 +2,18 @@
   grid-area: cta;
   background-image: url('../assets/beach.png');
   background-size: cover;
-  height: 200vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  background-repeat: no-repeat;
 }
 
 .ctaContainer {
-  height: 80vh;
+  height: 100vh;
+  position: relative;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-}
-
-.ctaContent {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   align-content: center;
 }
 
-.ctaHeader {
-  color: #FFF;
-}
-
-.ctaButtonWrapper {
-  display: flex;
-  justify-content: center;
-}
-
-.footerWrapper {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+.footerContainer {
+  position: absolute;
+  bottom: 0;
 }

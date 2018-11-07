@@ -25,6 +25,10 @@
   padding: 0.5rem 0;
 }
 
+.question a {
+  text-decoration: none;
+}
+
 .cloud_image {
   grid-area: clouds;
 }

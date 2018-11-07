@@ -8,9 +8,9 @@ const About = () => (
       <div className={styles.aboutContent}>
         <h1 className={styles.aboutHeader}>Turning dreams into reality.</h1>
         <TextSection>
-          SLO Hacks 2019 is a hackathon event hosted at Cal Poly, San Luis
-          Obispo. Over a period of 36 hours, you will meet new people, learn new
-          skills, and turn your ideas into a reality!
+          SLO Hacks 2019 is a 500-student, 36-hour hackathon hosted at Cal Poly SLO.
+          Over the course of the event, you&#39;ll meet new people, learn and develop your
+          skills, and turn your next big idea into a reality!
         </TextSection>
       </div>
     </section>

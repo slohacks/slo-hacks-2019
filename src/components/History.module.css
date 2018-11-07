@@ -1,5 +1,5 @@
 .history {
-  margin-top: 8rem;
+  margin-top: 9rem;
   grid-area: history;
 }
 
@@ -31,21 +31,30 @@
   color: #67778E;
 }
 
-.historyButton {
+.historyButtonContainer {
   grid-area: historyButton;
 }
 
-.historyButton button {
+.historyButton {
   font-size: 1.15rem;
   color: #67778E;
   border: 3px solid #67778E;
-  border-radius: 1.25em;
   background: transparent;
   display: inline-block;
+  text-align: center;
+  vertical-align: middle;
   padding: 0.5rem 2.5rem;
+  font-weight: 500;
+  border-radius: 1.25rem;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   cursor: pointer;
+  transition: 0.25s ease-in-out;
+}
+
+.historyButton:hover {
+  background-color: #67778E;
+  color: #FFF;
 }
 
 @media screen and (min-width: 992px) {

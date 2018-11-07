@@ -5,6 +5,7 @@
   background-repeat: no-repeat;
   background-position: bottom;
   height: 100vh;
+  position: relative;
 }
 
 @media screen and (min-width: 992px) {
@@ -31,6 +32,7 @@
 
 @media screen and (min-width: 992px) {
   .heroNav {
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 'navLeft navLogo navRight';
   }
 
@@ -94,11 +96,49 @@
   display: block;
   width: auto;
   max-width: none;
-  height: 7rem;
+  height: 9rem;
 }
 
 .heroButtonContainer {
   grid-area: heroButton;
   display: flex;
   justify-content: center;
+}
+
+.heroButton {
+  font-size: 1.15rem;
+  background: transparent;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.5rem 2.5rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+  color: #FFF;
+  border: 3px solid #FFF;
+  transition: 0.25s ease-in-out;
+}
+
+.heroButton:hover {
+  background: #FFF;
+  color: #000;
+}
+
+.banner img {
+  position: absolute;
+  width: auto;
+  height: 15vh;
+  margin-right: 5vw;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .banner img {
+    height: 30vh;
+    margin-right: 4vw;
+  }
 }

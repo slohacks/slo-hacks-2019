@@ -9,6 +9,16 @@ const FAQ = () => {
   function renderFAQSections(sectionNum) {
     const { body } = questions;
     return body[sectionNum].questions.map((question) => { // eslint-disable-line arrow-body-style
+      if (question.title === 'MLH') {
+        return (
+          <div className={styles.question}>
+            <TextHeader fontSize="1.25rem" color="black">Is there a code of conduct?</TextHeader>
+            <TextSection fontSize="1.25rem" color="black">
+              Please refer to <a rel="noopener noreferrer" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank"> the MLH code of conduct.</a>
+            </TextSection>
+          </div>
+        );
+      }
       return (
         <div className={styles.question}>
           <TextHeader fontSize="1.25rem" color="black">{question.title}</TextHeader>
@@ -20,7 +30,7 @@ const FAQ = () => {
 
   return (
     <div className={styles.faq}>
-      <h1 className={styles.faqHeader}>FAQ</h1>
+      <h1 id="faq" className={styles.faqHeader}>FAQ</h1>
       <div className={styles.faqWrapper}>
         <section className={styles.faqSection}>
           {renderFAQSections(0)}

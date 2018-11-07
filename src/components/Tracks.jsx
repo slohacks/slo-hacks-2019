@@ -8,7 +8,7 @@ import machine from '../assets/machine.png';
 import hardware from '../assets/hardware.png';
 
 const Tracks = () => (
-  <div className={styles.tracks}>
+  <div id="tracks" className={styles.tracks}>
     <h1 className={styles.trackHeader}>Technical Tracks</h1>
     <div className={styles.track}>
       <div className={styles.trackContainer}>
@@ -18,9 +18,8 @@ const Tracks = () => (
         <TextHeader fontSize="2rem" color="white">Game</TextHeader>
         <TextHeader fontSize="2rem" color="white">Design</TextHeader>
         <TextSection color="white">
-          A hackathon is an event, typically lasting several days,
-          in which a large number of people meet to engage in
-          collaborative computer programming.
+          Utilize interactive experiences to teach us something new,
+          tell a captivating story, or just have a ton of fun.
         </TextSection>
       </div>
 
@@ -31,9 +30,8 @@ const Tracks = () => (
         <TextHeader fontSize="2rem" color="white">AI + Machine</TextHeader>
         <TextHeader fontSize="2rem" color="white">Learning</TextHeader>
         <TextSection color="white">
-          A hackathon is an event, typically lasting several days,
-          in which a large number of people meet to engage in
-          collaborative computer programming.
+          Train your computer to solve complex problems like cancer detection or homelessness with
+          huge open-source datasets and large amounts of information.
         </TextSection>
       </div>
 
@@ -44,9 +42,9 @@ const Tracks = () => (
         <TextHeader fontSize="2rem" color="white">IoT +</TextHeader>
         <TextHeader fontSize="2rem" color="white">Hardware</TextHeader>
         <TextSection color="white">
-          A hackathon is an event, typically lasting several days,
-          in which a large number of people meet to engage in
-          collaborative computer programming.
+          Interested in escaping the digital world?
+          Explore the intersection of hardware and software
+          to create the next piece of physical technology.
         </TextSection>
       </div>
     </div>

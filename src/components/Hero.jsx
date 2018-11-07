@@ -1,25 +1,26 @@
 import React from 'react';
-import Button from '../components/common/Button';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import logo from '../assets/logo-white.png';
 import theme from '../assets/theme.png';
 import styles from './Hero.module.css';
 
 const Hero = () => (
-  <div className={styles.hero}>
+  <div id="hero" className={styles.hero}>
     <section className={styles.heroContainer}>
       <div className={styles.heroNav}>
         <div className={styles.navLeft}>
-          <a className={styles.heroLink} href="#">Home</a>
-          <a className={styles.heroLink} href="#">Schedule</a>
+          <AnchorLink className={styles.heroLink} href="#hero">Home</AnchorLink>
+          <AnchorLink className={styles.heroLink} href="#tracks">Tracks</AnchorLink>
+          {/* <AnchorLink className={styles.heroLink} href="#schedule">Schedule</AnchorLink> */}
         </div>
         <div className={styles.heroLogo}>
-          <a href="#">
+          <a href="https://www.slohacks.com">
             <img src={logo} alt="logo" />
           </a>
         </div>
         <div className={styles.navRight}>
-          <a className={styles.heroLink} href="#">Sponsors</a>
-          <a className={styles.heroLink} href="#">FAQ</a>
+          <AnchorLink className={styles.heroLink} href="#faq">FAQ</AnchorLink>
+          <AnchorLink className={styles.heroLink} href="#sponsors">Sponsors</AnchorLink>
         </div>
       </div>
       <div className={styles.heroContent}>
@@ -27,10 +28,15 @@ const Hero = () => (
           <img src={theme} alt={theme} />
         </div>
         <div className={styles.heroButtonContainer}>
-          <Button className={styles.heroButton} color="#FFF">Join our mailing list</Button>
+          <a rel="noopener noreferrer" href="http://eepurl.com/c0M_rj" target="_blank">
+            <button className={styles.heroButton}>Join mailing list!</button>
+          </a>
         </div>
       </div>
     </section>
+    <a className={styles.banner} rel="noopener noreferrer" href="https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=black" target="_blank">
+      <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-black.svg" alt="Major League Hacking 2019 Hackathon Season" />
+    </a>
   </div>
 );
 

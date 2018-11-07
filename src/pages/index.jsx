@@ -4,7 +4,7 @@ import About from '../components/About';
 import Tracks from '../components/Tracks';
 import History from '../components/History';
 import Baker from '../components/Baker';
-import Schedule from '../components/Schedule';
+// import Schedule from '../components/Schedule';
 import FAQ from '../components/FAQ';
 import Sponsor from '../components/Sponsor';
 import CTA from '../components/CTA';
@@ -17,7 +17,7 @@ const IndexPage = () => (
     <Tracks />
     <History />
     <Baker />
-    <Schedule />
+    {/* <Schedule /> */}
     <FAQ />
     <Sponsor />
     <CTA />
