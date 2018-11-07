@@ -1,6 +1,5 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import Button from '../components/common/Button';
 import logo from '../assets/logo-white.png';
 import theme from '../assets/theme.png';
 import styles from './Hero.module.css';
@@ -29,7 +28,7 @@ const Hero = () => (
         </div>
         <div className={styles.heroButtonContainer}>
           <a rel="noopener noreferrer" href="http://eepurl.com/c0M_rj" target="_blank">
-            <Button className={styles.heroButton} color="#FFF">Join mailing list!</Button>
+            <button className={styles.heroButton}>Join mailing list!</button>
           </a>
         </div>
       </div>

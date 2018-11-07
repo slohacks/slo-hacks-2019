@@ -104,6 +104,28 @@
   justify-content: center;
 }
 
+.heroButton {
+  font-size: 1.15rem;
+  background: transparent;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.5rem 2.5rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+  color: #FFF;
+  border: 3px solid #FFF;
+  transition: 0.25s ease-in-out;
+}
+
+.heroButton:hover {
+  background: #FFF;
+  color: #000;
+}
+
 .banner img {
   position: absolute;
   width: auto;
