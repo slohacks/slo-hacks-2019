@@ -13,6 +13,5 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'airbnb-browser-shims',
   ],
-  pathPrefix: '/event-dev',
   polyfill: false,
 };
