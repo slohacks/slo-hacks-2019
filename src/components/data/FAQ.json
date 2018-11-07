@@ -6,7 +6,7 @@
       [
         {
           "title": "What is a hackathon?",
-          "answer": "A hackathon is an event where students with common interests from all over the nation come together and collaborate on a project over a 24-hour period."
+          "answer": "A hackathon is an event where students with common interests from all over the nation come together and collaborate on a project over a 36-hour period."
         },
         {
           "title": "Who can come?",
@@ -19,10 +19,6 @@
         {
           "title": "What if I don't have a team or idea?",
           "answer": "Not a problem. There will be time to find other students who don't have a team yet!"
-        },
-        {
-          "title": "Still have questions?",
-          "answer": "Feel free to shoot us an email at team@slohacks.com or contact us on Facebook!"
         }
       ]
     },
@@ -41,11 +37,11 @@
           "title": "MLH"
         },
         {
-          "title": "What should I bring?",
+          "title": "How will I get there?",
           "answer": "We will be reimbursing hackers for their transportation within California. Check your email upon acceptance for more details!"
         },
         {
-          "title": "What should I bring?",
+          "title": "Still have questions?",
           "answer": "Feel free to shoot us an email at team@slohacks.com or contact us on Facebook."
         }
       ]
