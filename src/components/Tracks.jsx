@@ -8,7 +8,7 @@ import machine from '../assets/machine.png';
 import hardware from '../assets/hardware.png';
 
 const Tracks = () => (
-  <div className={styles.tracks}>
+  <div id="tracks" className={styles.tracks}>
     <h1 className={styles.trackHeader}>Technical Tracks</h1>
     <div className={styles.track}>
       <div className={styles.trackContainer}>

@@ -10,7 +10,8 @@ const Hero = () => (
       <div className={styles.heroNav}>
         <div className={styles.navLeft}>
           <AnchorLink className={styles.heroLink} href="#hero">Home</AnchorLink>
-          <AnchorLink className={styles.heroLink} href="#schedule">Schedule</AnchorLink>
+          <AnchorLink className={styles.heroLink} href="#tracks">Tracks</AnchorLink>
+          {/* <AnchorLink className={styles.heroLink} href="#schedule">Schedule</AnchorLink> */}
         </div>
         <div className={styles.heroLogo}>
           <a href="https://www.slohacks.com">
@@ -18,8 +19,8 @@ const Hero = () => (
           </a>
         </div>
         <div className={styles.navRight}>
-          <AnchorLink className={styles.heroLink} href="#sponsors">Sponsors</AnchorLink>
           <AnchorLink className={styles.heroLink} href="#faq">FAQ</AnchorLink>
+          <AnchorLink className={styles.heroLink} href="#sponsors">Sponsors</AnchorLink>
         </div>
       </div>
       <div className={styles.heroContent}>

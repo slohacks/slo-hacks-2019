@@ -32,6 +32,7 @@
 
 @media screen and (min-width: 992px) {
   .heroNav {
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 'navLeft navLogo navRight';
   }
 
