@@ -41,7 +41,7 @@
   "scripts": {
     "build": "gatsby build --prefix-paths",
     "develop": "gatsby develop",
-    "gh-pages": "gatsby build --prefix-paths && gh-pages -d public",
+    "gh-pages": "gatsby build --prefix-paths && gh-pages -d public -b master",
     "lint": "./node_modules/.bin/eslint src/**/*.js*; stylelint \"src/**/*.css\" --di",
     "test": "jest --passWithNoTests",
     "test:watch": "jest --watch",
