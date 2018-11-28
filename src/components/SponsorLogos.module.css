@@ -3,7 +3,23 @@
   grid-template-columns: 1fr;
 }
 
+.smallLogos {
+  display: grid;
+}
+
+.bigSponsors {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 .silver {
+  display: flex;
+  padding: 2rem;
+  align-self: center;
+  justify-self: center;
+}
+
+.bigLogo {
   display: flex;
   padding: 2rem;
   align-self: center;
@@ -13,5 +29,29 @@
 @media screen and (min-width: 992px) {
   .sponsorLogos {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .bigSponsors {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: span 3;
+  }
+
+  .bigLogo {
+    display: flex;
+    padding: 0 1.5rem;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .smallLogos {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: span 3;
+  }
+
+  .silver {
+    display: flex;
+    padding: 1.5rem 3rem;
+    align-self: center;
+    justify-self: center;
   }
 }
