@@ -28,6 +28,10 @@
   padding: 1rem;
 }
 
+.track h2 {
+  text-transform: uppercase;
+}
+
 .trackContainer p {
   font-size: 1.25rem;
 }

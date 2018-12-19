@@ -3,15 +3,6 @@
   grid-template-columns: 1fr;
 }
 
-.smallLogos {
-  display: grid;
-}
-
-.bigSponsors {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
 .silver {
   display: flex;
   padding: 2rem;
@@ -19,8 +10,8 @@
   justify-self: center;
 }
 
-.bigLogo {
-  display: flex;
+.medLogo {
+  display: block;
   padding: 2rem;
   align-self: center;
   justify-self: center;
@@ -28,30 +19,65 @@
 
 @media screen and (min-width: 992px) {
   .sponsorLogos {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .bigSponsors {
-    grid-template-columns: 1fr 1fr 1fr;
+  .topSponsors {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: 'itrade itrade itrade itrade itrade itrade itrade itrade itrade itrade itrade itrade';
     grid-column: span 3;
+    margin: 0 auto;
   }
 
-  .bigLogo {
+  .topLogo {
+    width: auto;
+    height: 12vh;
+  }
+
+  .medSponsors {
+    display: grid;
+    grid-column: span 3;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: 'viasat viasat viasat viasat godaddy godaddy godaddy godaddy micro micro micro micro';
+  }
+
+  .medLogo {
     display: flex;
-    padding: 0 1.5rem;
     align-self: center;
     justify-self: center;
+    width: auto;
+    height: 25vh;
   }
 
   .smallLogos {
-    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column: span 3;
+    width: 85%;
+    margin: 0 auto;
   }
 
   .silver {
-    display: flex;
-    padding: 1.5rem 3rem;
     align-self: center;
+    padding: 2.5rem;
     justify-self: center;
   }
+}
+
+.viasat {
+  grid-area: viasat;
+}
+
+.godaddy {
+  grid-area: godaddy;
+}
+
+.micro {
+  grid-area: micro;
+}
+
+.itrade {
+  grid-area: itrade;
 }

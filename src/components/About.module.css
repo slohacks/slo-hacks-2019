@@ -13,24 +13,13 @@
   background-repeat: none;
   height: 100vh;
   display: grid;
-  grid-template-columns: 2fr 8fr 2fr;
+  grid-template-columns: 1fr 10fr 1fr;
   grid-template-areas: '. aboutContent .';
 }
 
 @media screen and (min-width: 580px) {
   .aboutContainer {
     background-image: url('../assets/trees-between.png');
-  }
-}
-
-@media screen and (min-width: 880px) {
-  .aboutContainer {
-    background-position-x: 10%;
-    background-image: url('../assets/trees.png');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    grid-template-columns: 2fr 4fr 5fr;
   }
 }
 
@@ -51,5 +40,25 @@
 .aboutHeader {
   grid-area: aboutHeader;
   height: auto;
-  font-size: 3.25rem;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 880px) {
+  .aboutContainer {
+    background-position-x: 10%;
+    background-image: url('../assets/trees.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-template-columns: 2fr 4fr 5fr;
+  }
+
+  .aboutContent p {
+    font-size: 1.25rem;
+  }
+
+  .aboutHeader {
+    font-size: 3rem;
+  }
 }

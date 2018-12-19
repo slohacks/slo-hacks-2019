@@ -14,6 +14,7 @@
   grid-area: sponsorHeader;
   font-size: 3.25rem;
   color: #FFF;
+  text-transform: uppercase;
 }
 
 .sponsorButtonWrapper {
@@ -22,14 +23,14 @@
 }
 
 .sponsorButton {
-  font-size: 1.15rem;
+  font-size: 1.5rem;
   background: transparent;
   display: inline-block;
   text-align: center;
   vertical-align: middle;
   padding: 0.5rem 2.5rem;
   font-weight: 500;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   cursor: pointer;

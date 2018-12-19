@@ -13,7 +13,7 @@ const Sponsor = () => (
       </div>
       <div className={styles.sponsorButtonWrapper}>
         <a rel="noopener noreferrer" href={packet} target="_blank">
-          <button className={styles.sponsorButton} color="#FFF">Support us!</button>
+          <button className={styles.sponsorButton} color="#FFF">Support us</button>
         </a>
       </div>
     </section>
