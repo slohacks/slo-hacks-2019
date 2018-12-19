@@ -16,7 +16,7 @@
 
 .heroContainer {
   display: grid;
-  grid-template-columns: 1fr 10fr 1fr;
+  grid-template-columns: 3fr 6fr 3fr;
   grid-template-areas:
     '. heroNav .'
     '. heroContent .'
@@ -30,8 +30,16 @@
   grid-area: heroNav;
 }
 
+.heroTheme img {
+  display: block;
+  width: auto;
+  max-width: none;
+  height: 20vh;
+}
+
 @media screen and (min-width: 992px) {
   .heroNav {
+    margin: 0 auto;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 'navLeft navLogo navRight';
   }
@@ -39,6 +47,10 @@
   .heroNav .navLeft,
   .heroNav .navRight {
     display: flex;
+  }
+
+  .heroTheme img {
+    height: 25vh;
   }
 }
 
@@ -64,6 +76,7 @@
   font-size: 1.25rem;
   color: #FFF;
   padding: 2rem;
+  font-weight: 700;
 }
 
 .heroLogo {
@@ -76,7 +89,7 @@
   display: block;
   width: auto;
   max-width: none;
-  height: 8rem;
+  height: 9.5rem;
 }
 
 .heroContent {
@@ -92,13 +105,6 @@
   justify-content: center;
 }
 
-.heroTheme img {
-  display: block;
-  width: auto;
-  max-width: none;
-  height: 9rem;
-}
-
 .heroButtonContainer {
   grid-area: heroButton;
   display: flex;
@@ -106,20 +112,21 @@
 }
 
 .heroButton {
-  font-size: 1.15rem;
+  font-size: 1.5rem;
+  font-weight: 700;
   background: transparent;
   display: inline-block;
   text-align: center;
   vertical-align: middle;
-  padding: 0.5rem 2.5rem;
-  font-weight: 500;
-  border-radius: 0.5rem;
+  padding: 0.25rem 2.5rem;
+  border-radius: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   cursor: pointer;
   color: #FFF;
-  border: 3px solid #FFF;
+  border: 0.4rem solid #FFF;
   transition: 0.25s ease-in-out;
+  margin-top: 2rem;
 }
 
 .heroButton:hover {

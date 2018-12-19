@@ -17,8 +17,9 @@
 }
 
 .historyHeader h1 {
-  font-size: 3.25rem;
+  font-size: 3rem;
   text-transform: uppercase;
+  font-weight: 900;
 }
 
 .historyText {
@@ -27,8 +28,9 @@
 }
 
 .historyText p {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   color: #67778E;
+  font-weight: 500;
 }
 
 .historyButtonContainer {
@@ -60,9 +62,14 @@
 @media screen and (min-width: 992px) {
   .historyContainer {
     display: grid;
-    grid-template-columns: 1fr 5fr 5fr 1fr;
+    grid-template-columns: 2fr 4fr 4fr 2fr;
+    grid-column-gap: 1rem;
     grid-template-areas:
       '. historyHeader historyText .'
       '. historyButton . .';
+  }
+
+  .historyText {
+    text-align: right;
   }
 }
