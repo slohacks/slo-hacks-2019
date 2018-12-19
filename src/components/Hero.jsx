@@ -28,8 +28,8 @@ const Hero = () => (
           <img src={theme} alt={theme} />
         </div>
         <div className={styles.heroButtonContainer}>
-          <a rel="noopener noreferrer" href="http://eepurl.com/c0M_rj" target="_blank">
-            <button className={styles.heroButton}>Join mailing list!</button>
+          <a rel="noopener noreferrer" href="https://apply.slohacks.com/#/" target="_blank">
+            <button className={styles.heroButton}>Apply</button>
           </a>
         </div>
       </div>
