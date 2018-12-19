@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import styles from './Footer.module.css';
 
 class SocialMediaIcon extends React.Component {
