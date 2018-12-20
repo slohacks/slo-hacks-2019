@@ -1,6 +1,6 @@
 branches:
   only:
-  - master
+  - src
 language: node_js
 node_js:
   - "node"
@@ -17,9 +17,9 @@ deploy:
   provider: pages
   github-token: $GITHUB_TOKEN
   local-dir: public
-  target-branch: gh-pages
+  target-branch: master
   keep-history: true
   email: 34457519+slohacksbot@users.noreply.github.com
   name: SLO Hacks Bot
   on:
-    branch: master
+    branch: src
