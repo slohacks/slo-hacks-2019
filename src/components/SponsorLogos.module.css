@@ -17,6 +17,18 @@
   justify-self: center;
 }
 
+.topLogo {
+  display: block;
+  padding: 2rem;
+  align-self: center;
+  justify-self: center;
+}
+
+.wdtemp {
+  width: auto;
+  height: 25vh;
+}
+
 @media screen and (min-width: 992px) {
   .sponsorLogos {
     display: grid;
@@ -26,12 +38,15 @@
   .topSponsors {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-areas: 'itrade itrade itrade itrade itrade itrade itrade itrade itrade itrade itrade itrade';
+    grid-template-areas: 'f5 f5 f5 f5 wdtemp wdtemp wdtemp wdtemp itrade itrade itrade itrade';
     grid-column: span 3;
     margin: 0 auto;
   }
 
   .topLogo {
+    display: flex;
+    align-self: center;
+    justify-self: center;
     width: auto;
     height: 12vh;
   }
@@ -40,7 +55,7 @@
     display: grid;
     grid-column: span 3;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-areas: 'viasat viasat viasat viasat godaddy godaddy godaddy godaddy micro micro micro micro';
+    grid-template-areas: 'viasat viasat viasat godaddy godaddy godaddy micro micro micro platinum platinum platinum';
   }
 
   .medLogo {
@@ -80,4 +95,16 @@
 
 .itrade {
   grid-area: itrade;
+}
+
+.platinum {
+  grid-area: platinum;
+}
+
+.f5 {
+  grid-area: f5;
+}
+
+.wdtemp {
+  grid-area: wdtemp;
 }

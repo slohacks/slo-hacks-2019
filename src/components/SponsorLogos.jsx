@@ -1,8 +1,11 @@
 import React from 'react';
+import f5 from '../assets/logos/f5-logo.png';
+import wdtemp from '../assets/logos/wd-temp.svg';
 import itrade from '../assets/logos/itrade.svg';
 import viasat from '../assets/logos/viasat.png';
 import godaddy from '../assets/logos/godaddy.svg';
 import micro from '../assets/logos/microvu.svg';
+import platinum from '../assets/logos/platinum.svg';
 import gcp from '../assets/logos/gcp.svg';
 import splunk from '../assets/logos/splunk.png';
 import github from '../assets/logos/github.png';
@@ -21,12 +24,15 @@ import styles from './SponsorLogos.module.css';
 const SponsorLogos = () => (
   <div className={styles.sponsorLogos}>
     <div className={styles.topSponsors}>
+      <img className={`${styles.topLogo} ${styles.f5}`} src={f5} alt="F5 Networks" />
+      <img className={`${styles.topLogo} ${styles.wdtemp}`} src={wdtemp} alt="Western Digital" />
       <img className={`${styles.topLogo} ${styles.itrade}`} src={itrade} alt="itradenetwork" />
     </div>
     <div className={styles.medSponsors}>
       <img className={`${styles.medLogo} ${styles.viasat}`} src={viasat} alt="viasat" />
       <img className={`${styles.medLogo} ${styles.godaddy}`} src={godaddy} alt="godaddy" />
       <img className={`${styles.medLogo} ${styles.micro}`} src={micro} alt="micro" />
+      <img className={`${styles.medLogo} ${styles.platinum}`} src={platinum} alt="Platinum Performance" />
     </div>
     <div className={styles.smallLogos}>
       <img className={styles.silver} src={gcp} alt="gcp" />
