@@ -53,4 +53,3 @@ const SponsorLogos = () => (
 );
 
 export default SponsorLogos;
-

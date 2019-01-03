@@ -19,14 +19,8 @@
 
 .topLogo {
   display: block;
-  padding: 2rem;
   align-self: center;
   justify-self: center;
-}
-
-.wdtemp {
-  width: auto;
-  height: 25vh;
 }
 
 @media screen and (min-width: 992px) {
@@ -106,5 +100,6 @@
 }
 
 .wdtemp {
+  height: 12vh;
   grid-area: wdtemp;
 }
