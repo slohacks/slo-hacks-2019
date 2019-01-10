@@ -14,6 +14,7 @@ import balsamiq from '../assets/logos/balsamiq.svg';
 import linode from '../assets/logos/linode.png';
 import flume from '../assets/logos/flume.svg';
 import td from '../assets/logos/tech.png';
+import corsair from '../assets/logos/corsair.png';
 import wolfram from '../assets/logos/wolfram.svg';
 import sketch from '../assets/logos/sketch.svg';
 import mule from '../assets/logos/stickermule.png';
@@ -43,6 +44,7 @@ const SponsorLogos = () => (
       <img className={styles.silver} src={linode} alt="linode" />
       <img className={styles.silver} src={flume} alt="flume" />
       <img className={styles.silver} src={td} alt="techdomain" />
+      <img className={styles.silver} src={corsair} alt="corsair" />
       <img className={styles.silver} src={wolfram} alt="wolfram" />
       <img className={styles.silver} src={sketch} alt="sketch" />
       <img className={styles.silver} src={mule} alt="stickermule" />
