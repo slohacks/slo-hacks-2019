@@ -3,6 +3,15 @@
   grid-template-columns: 1fr;
 }
 
+.topSponsors {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    'f5'
+    'wdtemp'
+    'itrade';
+}
+
 .silver {
   display: flex;
   padding: 2rem;
@@ -21,58 +30,6 @@
   display: block;
   align-self: center;
   justify-self: center;
-}
-
-@media screen and (min-width: 992px) {
-  .sponsorLogos {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .topSponsors {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-areas: 'f5 f5 f5 f5 wdtemp wdtemp wdtemp wdtemp itrade itrade itrade itrade';
-    grid-column: span 3;
-    margin: 0 auto;
-  }
-
-  .topLogo {
-    display: flex;
-    align-self: center;
-    justify-self: center;
-    width: auto;
-    height: 12vh;
-  }
-
-  .medSponsors {
-    display: grid;
-    grid-column: span 3;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-areas: 'viasat viasat viasat godaddy godaddy godaddy micro micro micro platinum platinum platinum';
-  }
-
-  .medLogo {
-    display: flex;
-    align-self: center;
-    justify-self: center;
-    width: auto;
-    height: 25vh;
-  }
-
-  .smallLogos {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column: span 3;
-    width: 85%;
-    margin: 0 auto;
-  }
-
-  .silver {
-    align-self: center;
-    padding: 2.5rem;
-    justify-self: center;
-  }
 }
 
 .viasat {
@@ -102,4 +59,60 @@
 .wdtemp {
   height: 12vh;
   grid-area: wdtemp;
+}
+
+@media screen and (min-width: 992px) {
+  .sponsorLogos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .topSponsors {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: 'f5 f5 f5 f5 wdtemp wdtemp wdtemp wdtemp wdtemp itrade itrade itrade';
+    grid-column: span 3;
+    margin: 0 auto;
+  }
+
+  .topLogo {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    width: auto;
+    height: 12vh;
+  }
+
+  .medSponsors {
+    display: grid;
+    grid-column: span 3;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: 'viasat viasat viasat godaddy godaddy godaddy micro micro micro platinum platinum platinum';
+  }
+
+  .medLogo {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    width: auto;
+    height: 22vh;
+  }
+
+  .smallLogos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column: span 3;
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .silver {
+    align-self: center;
+    padding: 2.5rem;
+    justify-self: center;
+  }
+
+  .wdtemp {
+    height: 8vh;
+  }
 }
