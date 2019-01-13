@@ -25,13 +25,13 @@ import styles from './SponsorLogos.module.css';
 const SponsorLogos = () => (
   <div className={styles.sponsorLogos}>
     <div className={styles.topSponsors}>
-      <a className={`${styles.topLogo} ${styles.f5}`} href="" target="_blank" rel="noopener noreferrer">
+      <a className={`${styles.topLogo} ${styles.f5}`} href="https://www.f5.com/" target="_blank" rel="noopener noreferrer">
         <img className={styles.topLogo} src={f5} alt="F5 Networks" />
       </a>
-      <a className={`${styles.topLogo} ${styles.wdtemp}`} href="" target="_blank" rel="noopener noreferrer">
+      <a className={`${styles.topLogo} ${styles.wdtemp}`} href="https://www.westerndigital.com/" target="_blank" rel="noopener noreferrer">
         <img className={styles.topLogo} src={wdtemp} alt="Western Digital" />
       </a>
-      <a className={`${styles.topLogo} ${styles.itrade}`} href="" target="_blank" rel="noopener noreferrer">
+      <a className={`${styles.topLogo} ${styles.itrade}`} href="https://www.itradenetwork.com/" target="_blank" rel="noopener noreferrer">
         <img className={styles.topLogo} src={itrade} alt="itradenetwork" />
       </a>
     </div>
