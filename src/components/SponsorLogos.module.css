@@ -21,7 +21,7 @@
 
 .medLogo {
   display: block;
-  padding: 2rem;
+  padding: 1rem;
   align-self: center;
   justify-self: center;
 }
@@ -29,6 +29,7 @@
 .topLogo {
   display: block;
   align-self: center;
+  padding: 0.5rem;
   justify-self: center;
 }
 
@@ -48,6 +49,10 @@
   grid-area: itrade;
 }
 
+.itrade img {
+  height: 10vh;
+}
+
 .platinum {
   grid-area: platinum;
 }
@@ -56,9 +61,15 @@
   grid-area: f5;
 }
 
+.f5 img {
+  height: 20vh;
+}
+
 .wdtemp {
-  height: 12vh;
   grid-area: wdtemp;
+}
+.wdtemp img{
+  height: 12vh;
 }
 
 @media screen and (min-width: 992px) {
@@ -70,7 +81,7 @@
   .topSponsors {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-areas: 'f5 f5 f5 f5 wdtemp wdtemp wdtemp wdtemp wdtemp itrade itrade itrade';
+    grid-template-areas: 'f5 f5 f5 f5 wdtemp wdtemp wdtemp wdtemp itrade itrade itrade itrade';
     grid-column: span 3;
     margin: 0 auto;
   }
@@ -78,6 +89,7 @@
   .topLogo {
     display: flex;
     align-self: center;
+    padding: 0rem;
     justify-self: center;
     width: auto;
     height: 12vh;
@@ -86,8 +98,8 @@
   .medSponsors {
     display: grid;
     grid-column: span 3;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-areas: 'viasat viasat viasat godaddy godaddy godaddy micro micro micro platinum platinum platinum';
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-areas: '. viasat viasat viasat godaddy godaddy godaddy micro micro micro platinum platinum platinum';
   }
 
   .medLogo {
@@ -112,7 +124,11 @@
     justify-self: center;
   }
 
-  .wdtemp {
+  .f5 img{
+    height: 12vh;
+  }
+
+  .wdtemp img{
     height: 8vh;
   }
 }
