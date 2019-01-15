@@ -91,13 +91,15 @@ const SponsorLogos = () => (
         <img className={styles.silver} src={mule} alt="Stickermule" />
       </a>
     </div>
-    <div className={`${styles.smallLogos} ${styles.bottomrow}`}>
+    <div className={`${styles.smallLogos}`}>
+      <br className={styles.silver} />
       <a className={`${styles.silver} ${styles.csc}`} href="https://csc.calpoly.edu/" target="_blank" rel="noopener noreferrer">
         <img className={styles.silver} src={calpolycs} alt="Cal Poly Computer Science" />
       </a>
       <a className={`${styles.silver} ${styles.cpe}`} href="https://cpe.calpoly.edu/" target="_blank" rel="noopener noreferrer">
         <img className={styles.silver} src={cpe} alt="Cal Poly Computer Engineering" />
       </a>
+      <br className={styles.silver} />
     </div>
   </div>
 );
