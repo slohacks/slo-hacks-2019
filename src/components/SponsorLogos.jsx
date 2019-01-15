@@ -32,65 +32,65 @@ const SponsorLogos = () => (
         <img className={styles.topLogo} src={wdtemp} alt="Western Digital" />
       </a>
       <a className={`${styles.topLogo} ${styles.itrade}`} href="https://www.itradenetwork.com/" target="_blank" rel="noopener noreferrer">
-        <img className={styles.topLogo} src={itrade} alt="itradenetwork" />
+        <img className={styles.topLogo} src={itrade} alt="iTradeNetwork" />
       </a>
     </div>
     <div className={styles.medSponsors}>
       <a className={`${styles.medLogo} ${styles.viasat}`} href="https://www.viasat.com/" target="_blank" rel="noopener noreferrer">
-        <img className={styles.medLogo} src={viasat} alt="viasat" />
+        <img className={styles.medLogo} src={viasat} alt="Viasat" />
       </a>
       <a className={`${styles.medLogo} ${styles.godaddy}`} href="https://www.godaddy.com/" target="_blank" rel="noopener noreferrer">
-        <img className={styles.medLogo} src={godaddy} alt="godaddy" />
+        <img className={styles.medLogo} src={godaddy} alt="GoDaddy" />
       </a>
       <a className={`${styles.medLogo} ${styles.micro}`} href="https://www.microvu.com/" target="_blank" rel="noopener noreferrer">
-        <img className={styles.medLogo} src={micro} alt="micro" />
+        <img className={styles.medLogo} src={micro} alt="Micro Vu" />
       </a>
       <a className={`${styles.medLogo} ${styles.platinum}`} href="https://www.platinumperformance.com/horses" target="_blank" rel="noopener noreferrer">
         <img className={styles.medLogo} src={platinum} alt="Platinum Performance" />
       </a>
     </div>
     <div className={styles.smallLogos}>
-      <a href="https://cloud.google.com/" target="_blank" rel="noopener noreferrer">
-        <img className={styles.silver} src={gcp} alt="gcp" />
+      <a className={styles.silver} href="https://cloud.google.com/" target="_blank" rel="noopener noreferrer">
+        <img src={gcp} alt="Google Cloud Platform" />
       </a>
-      <a href="https://www.splunk.com/" target="_blank" rel="noopener noreferrer">
-        <img className={styles.silver} src={splunk} alt="splunk" />
+      <a className={styles.silver} href="https://www.splunk.com/" target="_blank" rel="noopener noreferrer">
+        <img src={splunk} alt="Splunk" />
       </a>
-      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-        <img className={styles.silver} src={github} alt="github" />
+      <a className={styles.silver} href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <img src={github} alt="GitHub" />
       </a>
-      <a href="https://wearehathway.com/" target="_blank" rel="noopener noreferrer">
-        <img className={styles.silver} src={hathway} alt="hathway" />
+      <a className={styles.silver} href="https://wearehathway.com/" target="_blank" rel="noopener noreferrer">
+        <img src={hathway} alt="Hathway" />
       </a>
-      <a href="https://balsamiq.com/" target="_blank" rel="noopener noreferrer">
-        <img className={styles.silver} src={balsamiq} alt="balsamiq" />
+      <a className={styles.silver} href="https://balsamiq.com/" target="_blank" rel="noopener noreferrer">
+        <img src={balsamiq} alt="Balsamiq" />
       </a>
-      <a href="https://www.linode.com/" target="_blank" rel="noopener noreferrer">
-        <img className={styles.silver} src={linode} alt="linode" />
+      <a className={styles.silver} href="https://www.linode.com/" target="_blank" rel="noopener noreferrer">
+        <img src={linode} alt="Linode" />
       </a>
-      <a href="https://www.flumetech.com/" target="_blank" rel="noopener noreferrer">
-        <img className={styles.silver} src={flume} alt="flume" />
+      <a className={styles.silver} href="https://www.flumetech.com/" target="_blank" rel="noopener noreferrer">
+        <img src={flume} alt="Flume" />
       </a>
-      <a href="https://get.tech/" target="_blank" rel="noopener noreferrer">
-        <img className={styles.silver} src={td} alt="techdomain" />
+      <a className={styles.silver} href="https://get.tech/" target="_blank" rel="noopener noreferrer">
+        <img src={td} alt=".Tech" />
       </a>
-      <a href="https://www.corsair.com/us/en/" target="_blank" rel="noopener noreferrer">
-        <img className={styles.silver} src={corsair} alt="corsair" />
+      <a className={`${styles.silver} ${styles.corsair}`} href="https://www.corsair.com/us/en/" target="_blank" rel="noopener noreferrer">
+        <img src={corsair} alt="Corsair" />
       </a>
-      <a href="https://www.wolfram.com/" target="_blank" rel="noopener noreferrer">
-        <img className={styles.silver} src={wolfram} alt="wolfram" />
+      <a className={styles.silver} href="https://www.wolfram.com/" target="_blank" rel="noopener noreferrer">
+        <img src={wolfram} alt="Wolfram Language" />
       </a>
-      <a href="https://www.sketchapp.com/" target="_blank" rel="noopener noreferrer">
-        <img className={styles.silver} src={sketch} alt="sketch" />
+      <a className={styles.silver} href="https://www.sketchapp.com/" target="_blank" rel="noopener noreferrer">
+        <img src={sketch} alt="Sketch" />
       </a>
-      <a href="https://www.stickermule.com/" target="_blank" rel="noopener noreferrer">
-        <img className={styles.silver} src={mule} alt="stickermule" />
+      <a className={`${styles.silver} ${styles.stickermule}`} href="https://www.stickermule.com/" target="_blank" rel="noopener noreferrer">
+        <img src={mule} alt="Stickermule" />
       </a>
-      <a href="https://csc.calpoly.edu/" target="_blank" rel="noopener noreferrer">
-        <img className={styles.silver} src={calpolycs} alt="csc" />
+      <a className={`${styles.silver} ${styles.csc}`} href="https://csc.calpoly.edu/" target="_blank" rel="noopener noreferrer">
+        <img src={calpolycs} alt="Cal Poly Computer Science" />
       </a>
-      <a href="https://cpe.calpoly.edu/" target="_blank" rel="noopener noreferrer">
-        <img className={styles.silver} src={cpe} alt="cpe" />
+      <a className={`${styles.silver} ${styles.cpe}`} href="https://cpe.calpoly.edu/" target="_blank" rel="noopener noreferrer">
+        <img src={cpe} alt="Cal Poly Computer Engineering" />
       </a>
     </div>
   </div>

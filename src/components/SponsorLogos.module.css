@@ -12,7 +12,7 @@
     'itrade';
 }
 
-.silver {
+.silver img {
   display: flex;
   padding: 2rem;
   align-self: center;
@@ -68,7 +68,8 @@
 .wdtemp {
   grid-area: wdtemp;
 }
-.wdtemp img{
+
+.wdtemp img {
   height: 12vh;
 }
 
@@ -81,7 +82,7 @@
   .topSponsors {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-areas: 'f5 f5 f5 f5 wdtemp wdtemp wdtemp wdtemp itrade itrade itrade itrade';
+    grid-template-areas: 'f5 f5 wdtemp wdtemp wdtemp wdtemp wdtemp itrade itrade itrade itrade itrade';
     grid-column: span 3;
     margin: 0 auto;
   }
@@ -89,7 +90,7 @@
   .topLogo {
     display: flex;
     align-self: center;
-    padding: 0rem;
+    padding: 0;
     justify-self: center;
     width: auto;
     height: 12vh;
@@ -98,8 +99,8 @@
   .medSponsors {
     display: grid;
     grid-column: span 3;
-    grid-template-columns: repeat(13, 1fr);
-    grid-template-areas: '. viasat viasat viasat godaddy godaddy godaddy micro micro micro platinum platinum platinum';
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: '. viasat viasat godaddy godaddy godaddy micro micro micro platinum platinum platinum';
   }
 
   .medLogo {
@@ -118,17 +119,42 @@
     margin: 0 auto;
   }
 
-  .silver {
+  .silver img {
     align-self: center;
-    padding: 2.5rem;
+    padding: 2rem;
+    height: 14vh;
     justify-self: center;
+    margin-bottom: 0 !important;
   }
 
-  .f5 img{
+  .corsair img {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    height: 20vh;
+  }
+
+  .cpe img {
+    height: 18vh;
+  }
+
+  .csc img {
+    height: 15vh;
+  }
+
+  .f5 img {
     height: 12vh;
   }
 
-  .wdtemp img{
+  .wdtemp img {
     height: 8vh;
+  }
+
+  .viasat img {
+    height: 17vh;
+  }
+
+  .stickermule img {
+    height: 13vh;
   }
 }
