@@ -50,47 +50,53 @@ const SponsorLogos = () => (
       </a>
     </div>
     <div className={styles.smallLogos}>
-      <a className={styles.silver} href="https://cloud.google.com/" target="_blank" rel="noopener noreferrer">
-        <img src={gcp} alt="Google Cloud Platform" />
+      <a className={`${styles.silver} ${styles.gcp}`} href="https://cloud.google.com/" target="_blank" rel="noopener noreferrer">
+        <img className={styles.silver} src={gcp} alt="Google Cloud Platform" />
       </a>
-      <a className={styles.silver} href="https://www.splunk.com/" target="_blank" rel="noopener noreferrer">
-        <img src={splunk} alt="Splunk" />
+      <a className={`${styles.silver} ${styles.splunk}`} href="https://www.splunk.com/" target="_blank" rel="noopener noreferrer">
+        <img className={styles.silver} src={splunk} alt="Splunk" />
       </a>
-      <a className={styles.silver} href="https://github.com/" target="_blank" rel="noopener noreferrer">
-        <img src={github} alt="GitHub" />
+      <a className={`${styles.silver} ${styles.github}`} href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <img className={styles.silver} src={github} alt="GitHub" />
       </a>
-      <a className={styles.silver} href="https://wearehathway.com/" target="_blank" rel="noopener noreferrer">
-        <img src={hathway} alt="Hathway" />
+      <a className={`${styles.silver} ${styles.hathway}`} href="https://wearehathway.com/" target="_blank" rel="noopener noreferrer">
+        <img className={styles.silver} src={hathway} alt="Hathway" />
       </a>
-      <a className={styles.silver} href="https://balsamiq.com/" target="_blank" rel="noopener noreferrer">
-        <img src={balsamiq} alt="Balsamiq" />
+    </div>
+    <div className={styles.smallLogos}>
+      <a className={`${styles.silver} ${styles.balsamiq}`} href="https://balsamiq.com/" target="_blank" rel="noopener noreferrer">
+        <img className={styles.silver} src={balsamiq} alt="Balsamiq" />
       </a>
-      <a className={styles.silver} href="https://www.linode.com/" target="_blank" rel="noopener noreferrer">
-        <img src={linode} alt="Linode" />
+      <a className={`${styles.silver} ${styles.linode}`} href="https://www.linode.com/" target="_blank" rel="noopener noreferrer">
+        <img className={styles.silver} src={linode} alt="Linode" />
       </a>
-      <a className={styles.silver} href="https://www.flumetech.com/" target="_blank" rel="noopener noreferrer">
-        <img src={flume} alt="Flume" />
+      <a className={`${styles.silver} ${styles.flume}`} href="https://www.flumetech.com/" target="_blank" rel="noopener noreferrer">
+        <img className={styles.silver} src={flume} alt="Flume" />
       </a>
-      <a className={styles.silver} href="https://get.tech/" target="_blank" rel="noopener noreferrer">
-        <img src={td} alt=".Tech" />
+      <a className={`${styles.silver} ${styles.tech}`} href="https://get.tech/" target="_blank" rel="noopener noreferrer">
+        <img className={styles.silver} src={td} alt=".Tech" />
       </a>
+    </div>
+    <div className={styles.smallLogos}>
       <a className={`${styles.silver} ${styles.corsair}`} href="https://www.corsair.com/us/en/" target="_blank" rel="noopener noreferrer">
-        <img src={corsair} alt="Corsair" />
+        <img className={styles.silver} src={corsair} alt="Corsair" />
       </a>
-      <a className={styles.silver} href="https://www.wolfram.com/" target="_blank" rel="noopener noreferrer">
-        <img src={wolfram} alt="Wolfram Language" />
+      <a className={`${styles.silver} ${styles.wolfram}`} href="https://www.wolfram.com/" target="_blank" rel="noopener noreferrer">
+        <img className={styles.silver} src={wolfram} alt="Wolfram Language" />
       </a>
-      <a className={styles.silver} href="https://www.sketchapp.com/" target="_blank" rel="noopener noreferrer">
-        <img src={sketch} alt="Sketch" />
+      <a className={`${styles.silver} ${styles.sketch}`} href="https://www.sketchapp.com/" target="_blank" rel="noopener noreferrer">
+        <img className={styles.silver} src={sketch} alt="Sketch" />
       </a>
       <a className={`${styles.silver} ${styles.stickermule}`} href="https://www.stickermule.com/" target="_blank" rel="noopener noreferrer">
-        <img src={mule} alt="Stickermule" />
+        <img className={styles.silver} src={mule} alt="Stickermule" />
       </a>
+    </div>
+    <div className={`${styles.smallLogos} ${styles.bottomrow}`}>
       <a className={`${styles.silver} ${styles.csc}`} href="https://csc.calpoly.edu/" target="_blank" rel="noopener noreferrer">
-        <img src={calpolycs} alt="Cal Poly Computer Science" />
+        <img className={styles.silver} src={calpolycs} alt="Cal Poly Computer Science" />
       </a>
       <a className={`${styles.silver} ${styles.cpe}`} href="https://cpe.calpoly.edu/" target="_blank" rel="noopener noreferrer">
-        <img src={cpe} alt="Cal Poly Computer Engineering" />
+        <img className={styles.silver} src={cpe} alt="Cal Poly Computer Engineering" />
       </a>
     </div>
   </div>

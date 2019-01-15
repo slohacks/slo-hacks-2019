@@ -100,7 +100,7 @@
     display: grid;
     grid-column: span 3;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-areas: '. viasat viasat godaddy godaddy godaddy micro micro micro platinum platinum platinum';
+    grid-template-areas: '. viasat viasat viasat godaddy godaddy godaddy micro micro micro platinum platinum';
   }
 
   .medLogo {
@@ -120,26 +120,10 @@
   }
 
   .silver img {
-    align-self: center;
-    padding: 2rem;
-    height: 14vh;
-    justify-self: center;
-    margin-bottom: 0 !important;
-  }
-
-  .corsair img {
     display: flex;
     align-self: center;
+    padding: 2rem;
     justify-self: center;
-    height: 20vh;
-  }
-
-  .cpe img {
-    height: 18vh;
-  }
-
-  .csc img {
-    height: 15vh;
   }
 
   .f5 img {
@@ -154,7 +138,26 @@
     height: 17vh;
   }
 
-  .stickermule img {
-    height: 13vh;
+  .gcp img {
+    margin-bottom: 0 !important;
+    margin-top: 1.5rem;
+  }
+
+  .hathway img {
+    margin-bottom: 0 !important;
+    margin-top: 2.25rem;
+  }
+
+  .corsair img {
+    height: 18vh;
+    margin: 0 auto;
+  }
+
+  .bottomrow {
+    margin-left: 30rem;
+  }
+
+  .cpe img {
+    margin-top: -2rem;
   }
 }
