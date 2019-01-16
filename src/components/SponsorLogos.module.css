@@ -4,73 +4,41 @@
 }
 
 .topSponsors {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-areas:
-    'f5'
-    'wdtemp'
-    'itrade';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.topSponsors img {
+  width: 100%;
+  margin: 2rem;
+}
+
+.silver {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .silver img {
-  display: flex;
-  padding: 2rem;
-  align-self: center;
-  justify-self: center;
+  width: 100%;
+  margin: 2rem;
 }
 
 .medLogo {
-  display: block;
+  display: flex;
   padding: 1rem;
-  align-self: center;
-  justify-self: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .topLogo {
-  display: block;
-  align-self: center;
-  padding: 0.5rem;
-  justify-self: center;
-}
-
-.viasat {
-  grid-area: viasat;
-}
-
-.godaddy {
-  grid-area: godaddy;
-}
-
-.micro {
-  grid-area: micro;
-}
-
-.itrade {
-  grid-area: itrade;
-}
-
-.itrade img {
-  height: 10vh;
-}
-
-.platinum {
-  grid-area: platinum;
-}
-
-.f5 {
-  grid-area: f5;
-}
-
-.f5 img {
-  height: 20vh;
-}
-
-.wdtemp {
-  grid-area: wdtemp;
-}
-
-.wdtemp img {
-  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (min-width: 992px) {
@@ -81,79 +49,43 @@
 
   .topSponsors {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-areas: 'f5 f5 wdtemp wdtemp wdtemp wdtemp wdtemp itrade itrade itrade itrade itrade';
+    grid-template-columns: 1fr 1fr 1fr;
     grid-column: span 3;
-    margin: 0 auto;
   }
 
   .topLogo {
     display: flex;
-    align-self: center;
-    padding: 0;
-    justify-self: center;
-    width: auto;
-    height: 12vh;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem;
   }
 
   .medSponsors {
     display: grid;
     grid-column: span 3;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-areas: '. viasat viasat viasat godaddy godaddy godaddy micro micro micro platinum platinum';
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
   .medLogo {
     display: flex;
-    align-self: center;
-    justify-self: center;
-    width: auto;
-    height: 22vh;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
   }
 
   .smallLogos {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column: span 3;
-    width: 85%;
+    width: 80%;
     margin: 0 auto;
   }
 
-  .silver img {
+  .silver {
     display: flex;
-    align-self: center;
+    align-items: center;
     padding: 2rem;
-    justify-self: center;
-  }
-
-  .f5 img {
-    height: 12vh;
-  }
-
-  .wdtemp img {
-    height: 8vh;
-  }
-
-  .viasat img {
-    height: 17vh;
-  }
-
-  .gcp img {
-    margin-bottom: 0 !important;
-    margin-top: 1.5rem;
-  }
-
-  .hathway img {
-    margin-bottom: 0 !important;
-    margin-top: 2.25rem;
-  }
-
-  .corsair img {
-    height: 18vh;
-    margin: 0 auto;
-  }
-
-  .cpe img {
-    margin-top: -2rem;
+    justify-items: center;
   }
 }
