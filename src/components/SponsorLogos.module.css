@@ -41,6 +41,10 @@
   justify-content: center;
 }
 
+.f5 {
+  padding: 0 30%;
+}
+
 @media screen and (min-width: 992px) {
   .sponsorLogos {
     display: grid;
