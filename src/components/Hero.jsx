@@ -27,11 +27,6 @@ const Hero = () => (
         <div className={styles.heroTheme}>
           <img src={theme} alt={theme} />
         </div>
-        <div className={styles.heroButtonContainer}>
-          <a rel="noopener noreferrer" href="https://apply.slohacks.com/#/" target="_blank">
-            <button className={styles.heroButton}>Apply</button>
-          </a>
-        </div>
       </div>
     </section>
     <a className={styles.banner} rel="noopener noreferrer" href="https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=black" target="_blank">
