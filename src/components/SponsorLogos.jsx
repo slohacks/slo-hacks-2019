@@ -1,6 +1,6 @@
 import React from 'react';
 import f5 from '../assets/logos/f5-logo.png';
-import wdtemp from '../assets/logos/wd-temp.svg';
+import wd from '../assets/logos/wd.png';
 import itrade from '../assets/logos/itrade.png';
 import viasat from '../assets/logos/viasat.png';
 import godaddy from '../assets/logos/godaddy.svg';
@@ -9,7 +9,7 @@ import platinum from '../assets/logos/platinum.svg';
 import gcp from '../assets/logos/gcp.svg';
 import splunk from '../assets/logos/splunk.png';
 import github from '../assets/logos/github.png';
-import hathway from '../assets/logos/hathway.svg';
+import hathway from '../assets/logos/hathway.png';
 import balsamiq from '../assets/logos/balsamiq.svg';
 import linode from '../assets/logos/linode.png';
 import flume from '../assets/logos/flume.svg';
@@ -26,13 +26,13 @@ const SponsorLogos = () => (
   <div className={styles.sponsorLogos}>
     <div className={styles.topSponsors}>
       <a className={styles.topLogo} href="https://www.f5.com/" target="_blank" rel="noopener noreferrer">
-        <img src={f5} alt="F5 Networks" />
-      </a>
-      <a className={styles.topLogo} href="https://www.westerndigital.com/" target="_blank" rel="noopener noreferrer">
-        <img src={wdtemp} alt="Western Digital" />
+        <img className={styles.f5} src={f5} alt="F5 Networks" />
       </a>
       <a className={styles.topLogo} href="https://www.itradenetwork.com/" target="_blank" rel="noopener noreferrer">
         <img src={itrade} alt="iTradeNetwork" />
+      </a>
+      <a className={styles.topLogo} href="https://www.westerndigital.com/" target="_blank" rel="noopener noreferrer">
+        <img src={wd} alt="Western Digital" />
       </a>
     </div>
     <div className={styles.medSponsors}>
