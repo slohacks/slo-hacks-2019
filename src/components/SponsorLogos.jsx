@@ -29,7 +29,7 @@ const SponsorLogos = () => (
         <img className={styles.f5} src={f5} alt="F5 Networks" />
       </a>
       <a className={styles.topLogo} href="https://www.itradenetwork.com/" target="_blank" rel="noopener noreferrer">
-        <img src={itrade} alt="iTradeNetwork" />
+        <img className={styles.itrade} src={itrade} alt="iTradeNetwork" />
       </a>
       <a className={styles.topLogo} href="https://www.westerndigital.com/" target="_blank" rel="noopener noreferrer">
         <img src={wd} alt="Western Digital" />

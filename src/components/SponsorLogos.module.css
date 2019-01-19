@@ -38,11 +38,15 @@
 .topLogo {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: baseline;
 }
 
 .f5 {
   padding: 0 30%;
+}
+
+.itrade {
+  padding-bottom: 4.25%;
 }
 
 @media screen and (min-width: 992px) {
