@@ -42,7 +42,10 @@
 }
 
 .f5 {
-  padding: 0 30%;
+  align-self: center;
+  justify-self: center;
+  height: auto;
+  max-width: 20vw;
 }
 
 .itrade {
@@ -95,5 +98,9 @@
     align-items: center;
     padding: 2rem;
     justify-items: center;
+  }
+
+  .f5 {
+    max-width: 12vw;
   }
 }
