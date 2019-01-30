@@ -5,32 +5,52 @@
       "events": 
       [
         {
-          "title": "Paper Airplane Activity",
-          "location": "TBD"
+          "title": "Attendee Check-in",
+          "time": "4:00 PM",
+          "location": "Front Desk",
+          "id": 1
         },
         {
-          "title": "Late Night Campus Tour",
-          "location": "TBD"
+          "title": "Dinner",
+          "time": "5:30 PM",
+          "location": "Front Desk",
+          "id": 2
         },
         {
-          "title": "Breakfast",
-          "location": "TBD"
+          "title": "Intro to iOS",
+          "time": "6:00 PM",
+          "location": "UU 220",
+          "id": 3
         },
         {
-          "title": "Android Workshop",
-          "location": "TBD"
+          "title": "Opening Ceremony",
+          "time": "7:30 PM",
+          "location": "Chumash Auditorium",
+          "id": 4
         },
         {
-          "title": "Shirts Distribution",
-          "location": "TBD"
+          "title": "Hacking Begins",
+          "time": "9:00 PM",
+          "location": "Everywhere",
+          "id": 5
         },
         {
-          "title": "Lunchn",
-          "location": "TBD"
+          "title": "Team Mixer",
+          "time": "9:00 PM",
+          "location": "UU 220",
+          "id": 6
         },
         {
-          "title": "Raffles",
-          "location": "TBD"
+          "title": "iTrade Challenge Workshop",
+          "time": "10:00 PM",
+          "location": "UU 220",
+          "id": 7
+        },
+        {
+          "title": "Intro to Google Cloud Platform",
+          "time": "11:00 PM",
+          "location": "UU 220",
+          "id": 8
         }
       ]
     },
@@ -38,24 +58,135 @@
       "events":
       [
         {
-          "title": "Cup Stacking Challenge",
-          "location": "TBD"
+          "title": "Late Night Snack",
+          "time": "12:00 AM",
+          "location": "Front Desk",
+          "id": 9
         },
         {
           "title": "Breakfast",
-          "location": "TBD"
+          "time": "8:00 AM",
+          "location": "Front Desk",
+          "id": 10
+        },
+        {
+          "title": "F5 Networks Workshop",
+          "time": "10:00 AM",
+          "location": "UU 220",
+          "id": 12
+        },
+        {
+          "title": "Machine Learning in iOS",
+          "time": "11:00 AM",
+          "location": "UU 220",
+          "id": 13
+        },
+        {
+          "title": "Lunch",
+          "time": "12:00 PM",
+          "location": "Front Desk",
+          "id": 14
+        },
+        {
+          "title": "Western Digital Workshop",
+          "time": "1:00 PM",
+          "location": "UU 220",
+          "id": 15
+        },
+        {
+          "title": "Therapy Dogs",
+          "time": "1:30 PM",
+          "location": "TBD",
+          "id": 16
+        },
+        {
+          "title": "Smash Tournament",
+          "time": "2:00 PM",
+          "location": "UU 220",
+          "id": 17
+        },
+        {
+          "title": "Art Workshop",
+          "time": "4:00 PM",
+          "location": "UU 220",
+          "id": 18
+        },
+        {
+          "title": "Intro to User Experience",
+          "time": "5:00 PM",
+          "location": "UU 220",
+          "id": 19
+        },
+        {
+          "title": "Dinner",
+          "time": "6:00 PM",
+          "location": "Front Desk",
+          "id": 20
+        },
+        {
+          "title": "Lean In Circle with WISH",
+          "time": "7:00 PM",
+          "location": "UU 220",
+          "id": 21
+        },
+        {
+          "title": "Cup Stacking",
+          "time": "9:00 PM",
+          "location": "UU 220",
+          "id": 22
+        },
+        {
+          "title": "Late Night Snack",
+          "time": "11:00 PM",
+          "location": "Front Desk",
+          "id": 23
+        }
+      ]
+    },
+    {
+      "events":
+      [
+        {
+          "title": "Breakfast",
+          "time": "8:00 AM",
+          "location": "Front Desk",
+          "id": 24
+        },
+        {
+          "title": "Project Submissions Due",
+          "time": "8:00 AM",
+          "location": "Everywhere",
+          "id": 25
         },
         {
           "title": "Hacking Ends",
-          "location": "TBD"
+          "time": "9:00 AM",
+          "location": "Everywhere",
+          "id": 27
         },
         {
-          "title": "Prep for Expo",
-          "location": "TBD"
+          "title": "Creating The Perfect Pitch On Short Notice",
+          "time": "9:00 AM",
+          "location": "UU 220",
+          "id": 11
         },
         {
-          "title": "Expo",
-          "location": "TBD"
+          "title": "Judging",
+          "time": "9:30 AM",
+          "location": "Chumash Auditorium",
+          "id": 28
+        },
+        {
+          "title": "Lunch",
+          "time": "11:30 AM",
+          "location": "Front Desk",
+          "id": 30
+        },
+        {
+          "title": "Closing Ceremony",
+          "time": "12:15 PM",
+          "location": "Chumash Auditorium",
+          "id": 31
         }
       ]
     }

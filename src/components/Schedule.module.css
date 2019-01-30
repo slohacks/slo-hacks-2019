@@ -18,7 +18,7 @@
     '. sunday .';
   grid-area: scheduleWrapper;
   background-color: #FFF;
-  border-radius: 2rem;
+  border-radius: 1rem;
 }
 
 .saturday {
@@ -34,10 +34,10 @@
 }
 
 .dayHeader {
-  font-size: 2.5rem;
   font-weight: bold;
-  color: #000;
-  letter-spacing: 0.1rem;
+  font-size: 2rem;
+  color: rgb(48, 48, 48);
+  letter-spacing: 0.2rem;
   text-transform: uppercase;
   margin-bottom: 0;
   text-align: center;
@@ -49,9 +49,22 @@
 }
 
 .scheduleHeader {
-  font-size: 3.25rem;
+  font-size: 1.75rem;
   color: #FFF;
   grid-area: scheduleHeader;
+}
+
+.event h2 {
+  font-size: 1.1rem;
+  color: rgb(48, 48, 48);
+  letter-spacing: 0.1rem;
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.event p {
+  font-size: 1.1rem;
 }
 
 @media screen and (min-width: 992px) {
@@ -61,5 +74,22 @@
     grid-template-areas: 'friday saturday sunday';
     padding: 2rem;
     text-align: center;
+  }
+
+  .dayHeader {
+    font-size: 2.5rem;
+    color: rgb(48, 48, 48);
+  }
+
+  .event {
+    padding: 0.75rem;
+  }
+
+  .event h2 {
+    font-size: 1.3em;
+  }
+
+  .event p {
+    font-size: 1.25rem;
   }
 }

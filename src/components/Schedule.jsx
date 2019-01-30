@@ -9,9 +9,9 @@ const Schedule = () => {
     const { body } = events;
     return body[eventSection].events.map((event) => { // eslint-disable-line arrow-body-style
       return (
-        <div className={styles.event}>
-          <TextHeader fontSize="1.25rem" color="black">{event.title}</TextHeader>
-          <TextSection fontSize="1.25rem" color="black">{event.location}</TextSection>
+        <div key={event.id} className={styles.event}>
+          <TextHeader>{event.title}</TextHeader>
+          <TextSection>{`${event.time}, ${event.location}`}</TextSection>
         </div>
       );
     });
@@ -25,21 +25,21 @@ const Schedule = () => {
         <div className={styles.friday}>
           <section className={styles.scheduleSection}>
             <h2 className={styles.dayHeader}>Friday</h2>
-            {renderEvents(1)}
+            {renderEvents(0)}
           </section>
         </div>
 
         <div className={styles.saturday}>
           <section className={styles.scheduleSection}>
             <h2 className={styles.dayHeader}>Saturday</h2>
-            {renderEvents(0)}
+            {renderEvents(1)}
           </section>
         </div>
 
         <div className={styles.sunday}>
           <section className={styles.scheduleSection}>
             <h2 className={styles.dayHeader}>Sunday</h2>
-            {renderEvents(1)}
+            {renderEvents(2)}
           </section>
         </div>
 
