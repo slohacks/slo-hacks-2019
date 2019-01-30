@@ -11,7 +11,7 @@ const Schedule = () => {
       return (
         <div key={event.id} className={styles.event}>
           <TextHeader>{event.title}</TextHeader>
-          <TextSection>{event.time}</TextSection>
+          <TextSection>{`${event.time}, ${event.location}`}</TextSection>
         </div>
       );
     });

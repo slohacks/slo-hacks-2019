@@ -58,6 +58,9 @@
   font-size: 1.5rem;
   color: rgb(48, 48, 48);
   letter-spacing: 0.1rem;
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .event p {

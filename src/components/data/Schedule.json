@@ -7,50 +7,56 @@
         {
           "title": "Sponsor Check-in",
           "time": "2:00 PM",
-          "location": "TBD",
+          "location": "Front Desk",
           "id": 0
         },
         {
           "title": "Attendee Check-in",
           "time": "4:00 PM",
-          "location": "TBD",
+          "location": "Front Desk",
           "id": 1
         },
         {
           "title": "Dinner",
           "time": "5:30 PM",
-          "location": "TBD",
+          "location": "Help Desk",
           "id": 2
+        },
+        {
+          "title": "Intro to iOS",
+          "time": "6:00 PM",
+          "location": "UU220",
+          "id": 3
         },
         {
           "title": "Opening Ceremony",
           "time": "7:30 PM",
-          "location": "TBD",
-          "id": 3
+          "location": "Chumash Auditorium",
+          "id": 4
         },
         {
           "title": "Hacking Begins",
           "time": "9:00 PM",
-          "location": "TBD",
-          "id": 4
+          "location": "Everywhere",
+          "id": 5
         },
         {
           "title": "Team Mixer",
           "time": "9:00 PM",
-          "location": "TBD",
-          "id": 5
+          "location": "UU220",
+          "id": 6
         },
         {
           "title": "iTrade Challenge Workshop",
           "time": "10:00 PM",
-          "location": "TBD",
-          "id": 6
+          "location": "UU220",
+          "id": 7
         },
         {
           "title": "Intro to Google Cloud Platform",
           "time": "11:00 PM",
-          "location": "TBD",
-          "id": 7
+          "location": "UU220",
+          "id": 8
         }
       ]
     },
@@ -58,76 +64,94 @@
       "events":
       [
         {
-          "title": "Midnight Snacks",
+          "title": "Late Night Snacks",
           "time": "12:00 AM",
-          "location": "TBD",
-          "id": 8
+          "location": "Front Desk",
+          "id": 9
         },
         {
           "title": "Breakfast",
           "time": "8:00 AM",
-          "location": "TBD",
-          "id": 9
+          "location": "Front Desk",
+          "id": 10
         },
         {
-          "title": "Weeks Workshop",
+          "title": "Creating The Perfect Pitch On Short Notice",
           "time": "9:00 AM",
-          "location": "TBD",
-          "id": 10
+          "location": "UU220",
+          "id": 11
         },
         {
           "title": "F5 Networks Workshop",
           "time": "10:00 AM",
-          "location": "TBD",
-          "id": 11
+          "location": "UU220",
+          "id": 12
         },
         {
           "title": "Scovil Workshop",
           "time": "11:00 AM",
-          "location": "TBD",
-          "id": 12
+          "location": "UU220",
+          "id": 13
         },
         {
           "title": "Lunch",
           "time": "12:00 PM",
-          "location": "TBD",
-          "id": 13
+          "location": "Front Desk",
+          "id": 14
         },
         {
           "title": "Western Digital Workshop",
           "time": "1:00 PM",
-          "location": "TBD",
-          "id": 14
-        },
-        {
-          "title": "Therapy Dogs Session",
-          "time": "1:30 PM",
-          "location": "TBD",
+          "location": "UU220",
           "id": 15
         },
         {
-          "title": "Smash Tournament",
-          "time": "2:00 PM",
+          "title": "Therapy Dogs",
+          "time": "1:30 PM",
           "location": "TBD",
           "id": 16
         },
         {
+          "title": "Smash Tournament",
+          "time": "2:00 PM",
+          "location": "UU220",
+          "id": 17
+        },
+        {
           "title": "Art Workshop",
           "time": "4:00 PM",
-          "location": "TBD",
-          "id": 17
+          "location": "UU220",
+          "id": 18
+        },
+        {
+          "title": "Intro to User Experience",
+          "time": "5:00 PM",
+          "location": "UU220",
+          "id": 19
         },
         {
           "title": "Dinner",
           "time": "6:00 PM",
-          "location": "TBD",
-          "id": 18
+          "location": "Front Desk",
+          "id": 20
+        },
+        {
+          "title": "Lean In Circle with WISH",
+          "time": "7:00 PM",
+          "location": "UU220",
+          "id": 21
         },
         {
           "title": "Cup Stacking",
           "time": "9:00 PM",
-          "location": "TBD",
-          "id": 19
+          "location": "UU220",
+          "id": 22
+        },
+        {
+          "title": "Late Night Snack",
+          "time": "11:00 PM",
+          "location": "Front Desk",
+          "id": 23
         }
       ]
     },
@@ -135,58 +159,52 @@
       "events":
       [
         {
-          "title": "Midnight Snack",
-          "time": "12:00 AM",
-          "location": "TBD",
-          "id": 20
-        },
-        {
           "title": "Breakfast",
           "time": "8:00 AM",
-          "location": "TBD",
-          "id": 21
+          "location": "Front Desk",
+          "id": 24
         },
         {
           "title": "Project Submissions Due",
           "time": "8:00 AM",
-          "location": "TBD",
-          "id": 22
+          "location": "Everywhere",
+          "id": 25
         },
         {
           "title": "Judges' Meeting",
           "time": "8:30 AM",
-          "location": "TBD",
-          "id": 23
+          "location": "UU220",
+          "id": 26
         },
         {
           "title": "Hacking Ends",
           "time": "9:00 AM",
-          "location": "TBD",
-          "id": 24
+          "location": "Everywhere",
+          "id": 27
         },
         {
           "title": "Judging",
           "time": "9:30 AM",
-          "location": "TBD",
-          "id": 25
+          "location": "Chumash Auditorium",
+          "id": 28
         },
         {
           "title": "Judging Ends",
           "time": "11:30 AM",
-          "location": "TBD",
-          "id": 26
+          "location": "Chumash Auditorium",
+          "id": 29
         },
         {
           "title": "Lunch",
           "time": "11:30 AM",
-          "location": "TBD",
-          "id": 27
+          "location": "Front Desk",
+          "id": 30
         },
         {
           "title": "Closing Ceremony",
           "time": "12:15 PM",
-          "location": "TBD",
-          "id": 28
+          "location": "Chumash Auditorium",
+          "id": 31
         }
       ]
     }
