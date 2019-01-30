@@ -5,32 +5,52 @@
       "events": 
       [
         {
-          "title": "Paper Airplane Activity",
-          "location": "TBD"
+          "title": "Sponsor Check-in",
+          "time": "2:00 PM",
+          "location": "TBD",
+          "id": 0
         },
         {
-          "title": "Late Night Campus Tour",
-          "location": "TBD"
+          "title": "Attendee Check-in",
+          "time": "4:00 PM",
+          "location": "TBD",
+          "id": 1
         },
         {
-          "title": "Breakfast",
-          "location": "TBD"
+          "title": "Dinner",
+          "time": "5:30 PM",
+          "location": "TBD",
+          "id": 2
         },
         {
-          "title": "Android Workshop",
-          "location": "TBD"
+          "title": "Opening Ceremony",
+          "time": "7:30 PM",
+          "location": "TBD",
+          "id": 3
         },
         {
-          "title": "Shirts Distribution",
-          "location": "TBD"
+          "title": "Hacking Begins",
+          "time": "9:00 PM",
+          "location": "TBD",
+          "id": 4
         },
         {
-          "title": "Lunchn",
-          "location": "TBD"
+          "title": "Team Mixer",
+          "time": "9:00 PM",
+          "location": "TBD",
+          "id": 5
         },
         {
-          "title": "Raffles",
-          "location": "TBD"
+          "title": "iTrade Challenge Workshop",
+          "time": "10:00 PM",
+          "location": "TBD",
+          "id": 6
+        },
+        {
+          "title": "Intro to Google Cloud Platform",
+          "time": "11:00 PM",
+          "location": "TBD",
+          "id": 7
         }
       ]
     },
@@ -38,24 +58,135 @@
       "events":
       [
         {
-          "title": "Cup Stacking Challenge",
-          "location": "TBD"
+          "title": "Midnight Snacks",
+          "time": "12:00 AM",
+          "location": "TBD",
+          "id": 8
         },
         {
           "title": "Breakfast",
-          "location": "TBD"
+          "time": "8:00 AM",
+          "location": "TBD",
+          "id": 9
+        },
+        {
+          "title": "Weeks Workshop",
+          "time": "9:00 AM",
+          "location": "TBD",
+          "id": 10
+        },
+        {
+          "title": "F5 Networks Workshop",
+          "time": "10:00 AM",
+          "location": "TBD",
+          "id": 11
+        },
+        {
+          "title": "Scovil Workshop",
+          "time": "11:00 AM",
+          "location": "TBD",
+          "id": 12
+        },
+        {
+          "title": "Lunch",
+          "time": "12:00 PM",
+          "location": "TBD",
+          "id": 13
+        },
+        {
+          "title": "Western Digital Workshop",
+          "time": "1:00 PM",
+          "location": "TBD",
+          "id": 14
+        },
+        {
+          "title": "Therapy Dogs Session",
+          "time": "1:30 PM",
+          "location": "TBD",
+          "id": 15
+        },
+        {
+          "title": "Smash Tournament",
+          "time": "2:00 PM",
+          "location": "TBD",
+          "id": 16
+        },
+        {
+          "title": "Art Workshop",
+          "time": "4:00 PM",
+          "location": "TBD",
+          "id": 17
+        },
+        {
+          "title": "Dinner",
+          "time": "6:00 PM",
+          "location": "TBD",
+          "id": 18
+        },
+        {
+          "title": "Cup Stacking",
+          "time": "9:00 PM",
+          "location": "TBD",
+          "id": 19
+        }
+      ]
+    },
+    {
+      "events":
+      [
+        {
+          "title": "Midnight Snack",
+          "time": "12:00 AM",
+          "location": "TBD",
+          "id": 20
+        },
+        {
+          "title": "Breakfast",
+          "time": "8:00 AM",
+          "location": "TBD",
+          "id": 21
+        },
+        {
+          "title": "Project Submissions Due",
+          "time": "8:00 AM",
+          "location": "TBD",
+          "id": 22
+        },
+        {
+          "title": "Judges' Meeting",
+          "time": "8:30 AM",
+          "location": "TBD",
+          "id": 23
         },
         {
           "title": "Hacking Ends",
-          "location": "TBD"
+          "time": "9:00 AM",
+          "location": "TBD",
+          "id": 24
         },
         {
-          "title": "Prep for Expo",
-          "location": "TBD"
+          "title": "Judging",
+          "time": "9:30 AM",
+          "location": "TBD",
+          "id": 25
         },
         {
-          "title": "Expo",
-          "location": "TBD"
+          "title": "Judging Ends",
+          "time": "11:30 AM",
+          "location": "TBD",
+          "id": 26
+        },
+        {
+          "title": "Lunch",
+          "time": "11:30 AM",
+          "location": "TBD",
+          "id": 27
+        },
+        {
+          "title": "Closing Ceremony",
+          "time": "12:15 PM",
+          "location": "TBD",
+          "id": 28
         }
       ]
     }
