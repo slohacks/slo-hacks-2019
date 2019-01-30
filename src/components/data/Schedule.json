@@ -70,12 +70,6 @@
           "id": 10
         },
         {
-          "title": "Creating The Perfect Pitch On Short Notice",
-          "time": "9:00 AM",
-          "location": "UU 220",
-          "id": 11
-        },
-        {
           "title": "F5 Networks Workshop",
           "time": "10:00 AM",
           "location": "UU 220",
@@ -169,6 +163,12 @@
           "time": "9:00 AM",
           "location": "Everywhere",
           "id": 27
+        },
+        {
+          "title": "Creating The Perfect Pitch On Short Notice",
+          "time": "9:00 AM",
+          "location": "UU 220",
+          "id": 11
         },
         {
           "title": "Judging",

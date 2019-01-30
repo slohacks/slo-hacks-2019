@@ -49,13 +49,13 @@
 }
 
 .scheduleHeader {
-  font-size: 3.25rem;
+  font-size: 1.75rem;
   color: #FFF;
   grid-area: scheduleHeader;
 }
 
 .event h2 {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   color: rgb(48, 48, 48);
   letter-spacing: 0.1rem;
   font-family: 'Brandon Grotesque', sans-serif;
@@ -64,7 +64,7 @@
 }
 
 .event p {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
 }
 
 @media screen and (min-width: 992px) {
@@ -77,7 +77,7 @@
   }
 
   .dayHeader {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     color: rgb(48, 48, 48);
   }
 
@@ -86,7 +86,7 @@
   }
 
   .event h2 {
-    font-size: 1.5rem;
+    font-size: 1.3em;
   }
 
   .event p {
