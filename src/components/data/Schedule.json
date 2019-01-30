@@ -5,12 +5,6 @@
       "events": 
       [
         {
-          "title": "Sponsor Check-in",
-          "time": "2:00 PM",
-          "location": "Front Desk",
-          "id": 0
-        },
-        {
           "title": "Attendee Check-in",
           "time": "4:00 PM",
           "location": "Front Desk",
@@ -19,13 +13,13 @@
         {
           "title": "Dinner",
           "time": "5:30 PM",
-          "location": "Help Desk",
+          "location": "Front Desk",
           "id": 2
         },
         {
           "title": "Intro to iOS",
           "time": "6:00 PM",
-          "location": "UU220",
+          "location": "UU 220",
           "id": 3
         },
         {
@@ -43,19 +37,19 @@
         {
           "title": "Team Mixer",
           "time": "9:00 PM",
-          "location": "UU220",
+          "location": "UU 220",
           "id": 6
         },
         {
           "title": "iTrade Challenge Workshop",
           "time": "10:00 PM",
-          "location": "UU220",
+          "location": "UU 220",
           "id": 7
         },
         {
           "title": "Intro to Google Cloud Platform",
           "time": "11:00 PM",
-          "location": "UU220",
+          "location": "UU 220",
           "id": 8
         }
       ]
@@ -64,7 +58,7 @@
       "events":
       [
         {
-          "title": "Late Night Snacks",
+          "title": "Late Night Snack",
           "time": "12:00 AM",
           "location": "Front Desk",
           "id": 9
@@ -78,19 +72,19 @@
         {
           "title": "Creating The Perfect Pitch On Short Notice",
           "time": "9:00 AM",
-          "location": "UU220",
+          "location": "UU 220",
           "id": 11
         },
         {
           "title": "F5 Networks Workshop",
           "time": "10:00 AM",
-          "location": "UU220",
+          "location": "UU 220",
           "id": 12
         },
         {
-          "title": "Scovil Workshop",
+          "title": "Machine Learning in iOS",
           "time": "11:00 AM",
-          "location": "UU220",
+          "location": "UU 220",
           "id": 13
         },
         {
@@ -102,7 +96,7 @@
         {
           "title": "Western Digital Workshop",
           "time": "1:00 PM",
-          "location": "UU220",
+          "location": "UU 220",
           "id": 15
         },
         {
@@ -114,19 +108,19 @@
         {
           "title": "Smash Tournament",
           "time": "2:00 PM",
-          "location": "UU220",
+          "location": "UU 220",
           "id": 17
         },
         {
           "title": "Art Workshop",
           "time": "4:00 PM",
-          "location": "UU220",
+          "location": "UU 220",
           "id": 18
         },
         {
           "title": "Intro to User Experience",
           "time": "5:00 PM",
-          "location": "UU220",
+          "location": "UU 220",
           "id": 19
         },
         {
@@ -138,13 +132,13 @@
         {
           "title": "Lean In Circle with WISH",
           "time": "7:00 PM",
-          "location": "UU220",
+          "location": "UU 220",
           "id": 21
         },
         {
           "title": "Cup Stacking",
           "time": "9:00 PM",
-          "location": "UU220",
+          "location": "UU 220",
           "id": 22
         },
         {
@@ -171,12 +165,6 @@
           "id": 25
         },
         {
-          "title": "Judges' Meeting",
-          "time": "8:30 AM",
-          "location": "UU220",
-          "id": 26
-        },
-        {
           "title": "Hacking Ends",
           "time": "9:00 AM",
           "location": "Everywhere",
@@ -187,12 +175,6 @@
           "time": "9:30 AM",
           "location": "Chumash Auditorium",
           "id": 28
-        },
-        {
-          "title": "Judging Ends",
-          "time": "11:30 AM",
-          "location": "Chumash Auditorium",
-          "id": 29
         },
         {
           "title": "Lunch",
