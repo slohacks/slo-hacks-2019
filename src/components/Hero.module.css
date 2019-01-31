@@ -25,8 +25,9 @@
 
 .heroNav {
   padding-top: 3rem;
-  display: grid;
-  grid-template-areas: '. navLogo .';
+  display: flex;
+  align-items: center;
+  justify-content: center;
   grid-area: heroNav;
 }
 
@@ -38,38 +39,17 @@
 }
 
 @media screen and (min-width: 992px) {
-  .heroNav {
-    margin: 0 auto;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 'navLeft navLogo navRight';
-  }
-
-  .heroNav .navLeft,
-  .heroNav .navRight {
-    display: flex;
-  }
-
   .heroTheme img {
     height: 25vh;
   }
-}
 
-.navLeft {
-  display: none;
-  flex-direction: row;
-  grid-area: navLeft;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-.navRight {
-  display: none;
-  flex-direction: row;
-  grid-area: navRight;
-  align-items: center;
+  .heroNav > .heroLink {
+    display: block;
+  }
 }
 
 .heroLink {
+  display: none;
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Brandon Grotesque', sans-serif;
