@@ -8,17 +8,15 @@ const Hero = () => (
   <div id="hero" className={styles.hero}>
     <section className={styles.heroContainer}>
       <div className={styles.heroNav}>
-        <div className={styles.navLeft}>
-          <AnchorLink className={styles.heroLink} href="#hero">Home</AnchorLink>
-          <AnchorLink className={styles.heroLink} href="#tracks">Tracks</AnchorLink>
-          {/* <AnchorLink className={styles.heroLink} href="#schedule">Schedule</AnchorLink> */}
-        </div>
         <div className={styles.heroLogo}>
           <a href="https://www.slohacks.com">
             <img src={logo} alt="logo" />
           </a>
         </div>
-        <div className={styles.navRight}>
+        <div className={styles.heroLinks}>
+          <AnchorLink className={styles.heroLink} href="#hero">Home</AnchorLink>
+          <AnchorLink className={styles.heroLink} href="#tracks">Tracks</AnchorLink>
+          <AnchorLink className={styles.heroLink} href="#schedule">Schedule</AnchorLink>
           <AnchorLink className={styles.heroLink} href="#faq">FAQ</AnchorLink>
           <AnchorLink className={styles.heroLink} href="#sponsors">Sponsors</AnchorLink>
         </div>
