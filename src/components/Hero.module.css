@@ -16,7 +16,7 @@
 
 .heroContainer {
   display: grid;
-  grid-template-columns: 3fr 6fr 3fr;
+  grid-template-columns: 5vw 6fr 5vw;
   grid-template-areas:
     '. heroNav .'
     '. heroContent .'
@@ -26,9 +26,13 @@
 .heroNav {
   padding-top: 3rem;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   grid-area: heroNav;
+}
+
+.heroLinks {
+  display: none;
 }
 
 .heroTheme img {
@@ -43,13 +47,22 @@
     height: 25vh;
   }
 
-  .heroNav > .heroLink {
-    display: block;
+  .heroNav {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .heroNav > .heroLinks {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
   }
 }
 
 .heroLink {
-  display: none;
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Brandon Grotesque', sans-serif;

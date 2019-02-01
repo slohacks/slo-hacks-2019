@@ -13,11 +13,13 @@ const Hero = () => (
             <img src={logo} alt="logo" />
           </a>
         </div>
-        <AnchorLink className={styles.heroLink} href="#hero">Home</AnchorLink>
-        <AnchorLink className={styles.heroLink} href="#tracks">Tracks</AnchorLink>
-        <AnchorLink className={styles.heroLink} href="#schedule">Schedule</AnchorLink>
-        <AnchorLink className={styles.heroLink} href="#faq">FAQ</AnchorLink>
-        <AnchorLink className={styles.heroLink} href="#sponsors">Sponsors</AnchorLink>
+        <div className={styles.heroLinks}>
+          <AnchorLink className={styles.heroLink} href="#hero">Home</AnchorLink>
+          <AnchorLink className={styles.heroLink} href="#tracks">Tracks</AnchorLink>
+          <AnchorLink className={styles.heroLink} href="#schedule">Schedule</AnchorLink>
+          <AnchorLink className={styles.heroLink} href="#faq">FAQ</AnchorLink>
+          <AnchorLink className={styles.heroLink} href="#sponsors">Sponsors</AnchorLink>
+        </div>
       </div>
       <div className={styles.heroContent}>
         <div className={styles.heroTheme}>
